@@ -1,0 +1,146 @@
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  
+  Workflow app = /user/ambari-qa/data_pipeline_demo/
+-->
+<workflow-app xmlns="uri:oozie:workflow:0.4" name="dataPipelineDemoWorkflow">
+
+    <start to="workflow_prep"/>
+    <action name="workflow_prep">
+        <fs>
+              <mkdir path='${nameNode}${workflow_root_dir}/data/process/${execution_id}'/>
+              <mkdir path='${nameNode}${workflow_root_dir}/data/backup/${execution_id}'/>              
+        </fs>
+        <ok to="move_data_to_process"/>
+        <error to="end"/>
+    </action>
+
+    <action name="move_data_to_process">
+        <shell xmlns="uri:oozie:shell-action:0.1">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <exec>hdfs</exec>
+              <argument>dfs</argument>
+              <argument>-mv</argument>
+              <argument>${eventData}/*.input</argument>            
+              <argument>${workflow_root_dir}/data/process/${execution_id}</argument>                          
+        </shell>
+        <ok to="copy_data_to_backup"/>
+        <error to="end"/>
+    </action>
+    
+    <action name="copy_data_to_backup">
+        <shell xmlns="uri:oozie:shell-action:0.1">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <exec>hdfs</exec>
+              <argument>dfs</argument>
+              <argument>-cp</argument>
+              <argument>${workflow_root_dir}/data/process/${execution_id}/*</argument>            
+              <argument>${workflow_root_dir}/data/backup/${execution_id}/</argument>                          
+        </shell>
+        <ok to="load_raw_data"/>
+        <error to="end"/>
+    </action>    
+    
+  <!--  <action name="cleanup_tmp_tables">
+        <hive xmlns="uri:oozie:hive-action:0.2">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <job-xml>${workflow_root_dir}/conf/hive-site.xml</job-xml>            
+            <script>${workflow_root_dir}/hql/DML/cleanup_tmp_tables.hql</script>
+			<param>execution_id=${execution_id}</param>
+			<param>workflow_root_dir=${workflow_root_dir}</param>
+			<param>hive_db=${hive_db}</param>
+			<param>json_raw_table=${json_raw_table}</param>
+			<param>json_events_table=${json_events_table}</param>
+			<param>export_table=${export_table}</param>			
+        </hive>
+        <ok to="load_raw_data"/>
+        <error to="load_raw_data"/>
+    </action>-->
+
+    <action name="load_raw_data">
+        <hive xmlns="uri:oozie:hive-action:0.2">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <job-xml>${workflow_root_dir}/conf/hive-site.xml</job-xml>            
+            <script>${workflow_root_dir}/hql/DML/load_raw_data.hql</script>
+			<param>execution_id=${execution_id}</param>
+			<param>workflow_root_dir=${workflow_root_dir}</param>
+			<param>hive_db=${hive_db}</param>
+			<param>xml_raw_table=${xml_raw_table}</param>        
+        </hive>
+        <ok to="aggregate_data"/>
+        <error to="end"/>
+    </action>
+
+    <action name="aggregate_data">
+        <hive xmlns="uri:oozie:hive-action:0.2">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <job-xml>${workflow_root_dir}/conf/hive-site.xml</job-xml>            
+            <script>${workflow_root_dir}/hql/DML/aggregate.hql</script>
+			<param>execution_id=${execution_id}</param>
+			<param>workflow_root_dir=${workflow_root_dir}</param>
+			<param>hive_db=${hive_db}</param>
+			<param>xml_raw_table=${xml_raw_table}</param>        
+			<param>json_events_table=${json_events_table}</param>        					
+			<param>json_raw_table=${json_raw_table}</param>        
+			<param>export_table=${export_table}</param>        
+			<param>xml_archive_table=${xml_archive_table}</param>        
+			<param>json_events_master_table=${json_events_master_table}</param>        
+            <file>${workflow_root_dir}/jars/hive-hcatalog-core.jar</file>
+            <archive>${workflow_root_dir}/jars/hive-hcatalog-core.jar</archive>			
+        </hive>
+        <ok to="export_data"/>
+        <error to="end"/>
+    </action>    
+
+    <action name="export_data">
+        <sqoop xmlns="uri:oozie:sqoop-action:0.2">
+            <job-tracker>${jobTracker}</job-tracker>
+            <name-node>${nameNode}</name-node>
+            <arg>export</arg>
+            <arg>--connect</arg>
+            <arg>${EXPORT_JDBC_URL}</arg>
+            <arg>--password</arg>
+            <arg>${EXPORT_USER_PASSWORD}</arg>
+            <arg>--username</arg>
+            <arg>${EXPORT_USER_ID}</arg>
+            <arg>--export-dir</arg>
+            <arg>${EXPORT_DATA_SOURCE_DIR}${export_table}</arg>
+            <arg>--table</arg>
+            <arg>${EXPORT_TARGET_TABLE}</arg>
+            <arg>--input-fields-terminated-by</arg>
+            <arg>${EXPORT_DATA_DELIMITER}</arg>
+            <arg>--input-null-non-string</arg>
+            <arg>\\N</arg>
+            <file>${workflow_root_dir}/jars/mysql-connector-java.jar</file>
+            <archive>${workflow_root_dir}/jars/mysql-connector-java.jar</archive>			            
+        </sqoop>
+        <ok to="end"/>
+        <error to="kill"/>
+    </action>    
+
+   
+    <kill name="kill">
+        <message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
+    </kill>
+    <end name="end"/>
+
+</workflow-app>

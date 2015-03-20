@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ODM xmlns:data="http://www.cdisc.org/ns/Dataset-XML/v1.0"
+     xmlns="http://www.cdisc.org/ns/odm/v1.3"
+     data:DatasetXMLVersion="1.0.0"
+     ODMVersion="1.3.2"
+     FileType="Snapshot"
+     FileOID="SDTM-XML"
+     CreationDateTime="2012-12-08T23:06:03.046+01:00">
+   <ReferenceData StudyOID="LZZT" MetaDataVersionOID="CDISC.SDTM.3.1.0">
+      <ItemGroupData data:ItemGroupDataSeq="1" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="ADDON"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Added on to Existing Treatments"/>
+         <ItemData ItemOID="TS.TSVAL" Value="Y"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="2" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="AGEMAX"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Planned Maximum Age of Subjects"/>
+         <ItemData ItemOID="TS.TSVAL" Value="No maximum"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="3" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="AGEMIN"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Planned Minimum Age of Subjects"/>
+         <ItemData ItemOID="TS.TSVAL" Value="50 years"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="4" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="AGESPAN"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Age Group"/>
+         <ItemData ItemOID="TS.TSVAL" Value="ADULT (18-65)"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="5" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="2"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="AGESPAN"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Age Group"/>
+         <ItemData ItemOID="TS.TSVAL" Value="ELDERLY (&gt; 65)"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="6" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="TBLIND"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Blinding Schema"/>
+         <ItemData ItemOID="TS.TSVAL" Value="DOUBLE BLIND"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="7" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="COMPTRT"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Comparative Treatment Name"/>
+         <ItemData ItemOID="TS.TSVAL" Value="Placebo"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="8" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="TCNTRL"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Control Type"/>
+         <ItemData ItemOID="TS.TSVAL" Value="PLACEBO"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="9" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="TDIGRP"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Diagnosis Group"/>
+         <ItemData ItemOID="TS.TSVAL"
+                   Value="Patients with Probable Mild to Moderate Alzheimer�s Disease"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="10" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="DOSE"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Dose per Administration"/>
+         <ItemData ItemOID="TS.TSVAL" Value="54"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="11" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="2"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="DOSE"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Dose per Administration"/>
+         <ItemData ItemOID="TS.TSVAL" Value="81"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="12" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="DOSFRQ"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Dosing Frequency"/>
+         <ItemData ItemOID="TS.TSVAL" Value="QD; 12 to 14 hours transdermal application"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="13" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="DOSU"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Dose Units"/>
+         <ItemData ItemOID="TS.TSVAL" Value="mg"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="14" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="INDIC"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Indication"/>
+         <ItemData ItemOID="TS.TSVAL" Value="Mild to Moderate Alzheimer�s Disease"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="15" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="TINDTP"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Indication Type"/>
+         <ItemData ItemOID="TS.TSVAL" Value="TREATMENT"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="16" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="LENGTH"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Length"/>
+         <ItemData ItemOID="TS.TSVAL" Value="26 weeks"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="17" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="OBJPRIM"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Primary Objective"/>
+         <ItemData ItemOID="TS.TSVAL"
+                   Value="To determine if there is a statistically significant relationship between the change in both ADAS-Cog and CIBIC+ scores and drug dose (0; 50 cm2 [54 mg]; and 75 cm2 [81 mg])"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="18" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="2"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="OBJPRIM"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Primary Objective"/>
+         <ItemData ItemOID="TS.TSVAL"
+                   Value="To document the safety profile of the xanomeline TTS."/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="19" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="OBJSEC"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Secondary Objective"/>
+         <ItemData ItemOID="TS.TSVAL"
+                   Value="To assess the dose-dependent improvement in behavior. Improved scores on the Revised Neuropsychiatric Inventory (NPI-X) will indicate improvement in these areas."/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="20" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="2"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="OBJSEC"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Secondary Objective"/>
+         <ItemData ItemOID="TS.TSVAL"
+                   Value="To assess the dose-dependent improvements in activities of daily living. Improved scores on the Disability Assessment for Dementia (DAD) will indicate improvement in these areas."/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="21" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="3"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="OBJSEC"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Secondary Objective"/>
+         <ItemData ItemOID="TS.TSVAL"
+                   Value="To assess the dose-dependent improvements in an extended assessment of cognition that integrates attention/concentration tasks. The ADAS-Cog (14) will be used for this assessment."/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="22" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="4"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="OBJSEC"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Secondary Objective"/>
+         <ItemData ItemOID="TS.TSVAL"
+                   Value="To assess the treatment response as a function of Apo E genotype."/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="23" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="TPHASE"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Phase Classification"/>
+         <ItemData ItemOID="TS.TSVAL" Value="Phase II Trial"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="24" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="PLANSUB"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Planned Number of Subjects"/>
+         <ItemData ItemOID="TS.TSVAL" Value="300"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="25" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="RANDOM"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial is Randomized"/>
+         <ItemData ItemOID="TS.TSVAL" Value="Y"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="26" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="ROUTE"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Route of Administration"/>
+         <ItemData ItemOID="TS.TSVAL" Value="TRANSDERMAL"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="27" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="SEXPOP"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Sex of Participants"/>
+         <ItemData ItemOID="TS.TSVAL" Value="BOTH"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="28" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="SPONSOR"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Clinical Study Sponsor"/>
+         <ItemData ItemOID="TS.TSVAL" Value="CDISCPILOT01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="29" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="TITLE"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Title"/>
+         <ItemData ItemOID="TS.TSVAL"
+                   Value="Safety and Efficacy of the Xanomeline Transdermal Therapeutic System (TTS) in Patients with Mild to Moderate Alzheimer�s Disease."/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="30" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="TRT"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Investigational Therapy or Treatment"/>
+         <ItemData ItemOID="TS.TSVAL" Value="Xanomeline"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="31" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="1"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="TTYPE"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Type"/>
+         <ItemData ItemOID="TS.TSVAL" Value="SAFETY"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="32" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="2"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="TTYPE"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Type"/>
+         <ItemData ItemOID="TS.TSVAL" Value="EFFICACY"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="33" ItemGroupOID="TS">
+         <ItemData ItemOID="TS.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TS.DOMAIN" Value="TS"/>
+         <ItemData ItemOID="TS.TSSEQ" Value="4"/>
+         <ItemData ItemOID="TS.TSPARMCD" Value="TTYPE"/>
+         <ItemData ItemOID="TS.TSPARM" Value="Trial Type"/>
+         <ItemData ItemOID="TS.TSVAL" Value="PHARMACOKINETIC"/>
+      </ItemGroupData>
+   </ReferenceData>
+</ODM>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ A feed representing Hourly customer email data retained for 90 days
+ -->
+<feed description="Demo Input Data" name="demoEventData"
+    xmlns="uri:falcon:feed:0.1">
+    
+    <tags>externalSystem=eventData,classification=clinicalResearch</tags>
+    <groups>events</groups>
+    <frequency>minutes(3)</frequency>
+    <late-arrival cut-off="hours(4)"/>
+    <clusters>
+        <cluster name="primaryCluster">
+            <validity start="2015-03-14T00:00Z" end="2016-02-08T22:00Z"/>
+            <retention limit="days(5)" action="delete"/>
+        </cluster>
+    </clusters>
+    
+    <locations>
+        <location type="data" path="/user/ambari-qa/data_pipeline_demo/data/input"/>
+        <location type="stats" path="/none"/>
+        <location type="meta" path="/none"/>        
+    </locations>
+    
+    <ACL owner="ambari-qa" group="hdfs" permission="0755"/>
+    <schema location="/none" provider="none"/>
+</feed>

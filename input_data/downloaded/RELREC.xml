@@ -1,0 +1,1883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ODM xmlns:data="http://www.cdisc.org/ns/Dataset-XML/v1.0"
+     xmlns="http://www.cdisc.org/ns/odm/v1.3"
+     data:DatasetXMLVersion="1.0.0"
+     ODMVersion="1.3.2"
+     FileType="Snapshot"
+     FileOID="SDTM-XML"
+     CreationDateTime="2012-12-08T23:06:03.046+01:00">
+   <ClinicalData StudyOID="LZZT" MetaDataVersionOID="CDISC.SDTM.3.1.0">
+      <ItemGroupData data:ItemGroupDataSeq="1" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1023"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1023-E09"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="2" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1047"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1047-E09"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="3" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1111"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="7"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1111-E16"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="4" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1115"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="7"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1115-E13"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="5" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1146"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="6"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1146-E13"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="6" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1146"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="8"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1146-E13"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="7" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1180"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="9"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1180-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="8" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1181"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1181-E16"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="9" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1188"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="7"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1188-E09"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="10" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1211"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="9"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1211-E11"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="11" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1294"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="6"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1294-E09"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="12" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1302"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="8"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1302-E16"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="13" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1302"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="18"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1302-E16"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="14" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1341"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="5"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1341-E13"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="15" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1444"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="7"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1444-E16"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="16" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1076"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1076-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="17" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1076"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="7"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1076-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="18" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1086"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1086-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="19" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1086"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1086-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="20" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1086"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1086-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="21" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1086"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="6"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1086-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="22" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1119"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1119-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="23" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1119"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1119-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="24" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1182"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1182-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="25" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1182"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1182-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="26" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1258"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1258-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="27" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1258"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="6"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1258-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="28" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1258"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="7"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1258-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="29" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1403"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1403-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="30" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1008"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1008-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="31" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1017"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="5"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1017-E11"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="32" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1017"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="7"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1017-E11"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="33" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1025"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1025-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="34" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1025"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="6"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1025-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="35" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1065"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1065-E12"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="36" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1074"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1074-E09"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="37" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1093"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1093-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="38" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1120"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1120-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="39" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1120"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1120-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="40" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1241"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1241-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="41" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1266"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1266-E10"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="42" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1266"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="9"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1266-E10"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="43" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1266"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="12"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1266-E10"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="44" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1323"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1323-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="45" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1332"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1332-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="46" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1332"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1332-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="47" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1332"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="5"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1332-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="48" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1445"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1445-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="49" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1059"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1059-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="50" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1199"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1199-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="51" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1199"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1199-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="52" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1281"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1281-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="53" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1281"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1281-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="54" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1303"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1303-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="55" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1303"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1303-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="56" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1310"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1310-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="57" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1393"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1393-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="58" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-706-1049"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-706-1049-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="59" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-706-1384"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-706-1384-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="60" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-706-1384"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="9"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-706-1384-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="61" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1019"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1019-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="62" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1032"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1032-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="63" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1158"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1158-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="64" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1213"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1213-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="65" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1213"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1213-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="66" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1216"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1216-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="67" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1297"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1297-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="68" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1347"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1347-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="69" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1347"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="6"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1347-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="70" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1353"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1353-E10"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="71" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1428"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1428-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="72" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1428"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="5"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1428-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="73" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1007"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1007-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="74" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1081"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1081-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="75" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1102"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1102-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="76" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1102"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1102-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="77" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1168"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1168-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="78" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1168"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="5"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1168-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="79" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1217"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="11"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1217-E10"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="80" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1238"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1238-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="81" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1306"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="5"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1306-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="82" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1306"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="9"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1306-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="83" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1424"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1424-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="84" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1002"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1002-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="85" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1002"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1002-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="86" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1021"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1021-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="87" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1021"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1021-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="88" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1045"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1045-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="89" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1045"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="9"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1045-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="90" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1053"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1053-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="91" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1053"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1053-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="92" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1070"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="5"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1070-E12"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="93" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1083"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1083-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="94" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1137"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1137-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="95" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1142"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1142-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="96" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1154"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1154-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="97" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1154"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1154-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="98" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1166"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="5"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1166-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="99" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1264"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1264-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="100" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1270"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1270-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="101" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1271"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1271-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="102" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1278"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1278-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="103" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1278"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="6"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1278-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="104" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1300"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1300-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="105" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1315"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1315-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="106" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1315"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="5"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1315-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="107" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1385"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="7"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1385-E12"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="108" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-711-1012"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-711-1012-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="109" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-711-1012"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-711-1012-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="110" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-711-1143"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="10"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-711-1143-E21"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="111" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-711-1143"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="14"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-711-1143-E21"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="112" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-711-1433"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-711-1433-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="113" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-713-1141"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-713-1141-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="114" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-713-1448"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-713-1448-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="115" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-713-1448"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-713-1448-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="116" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-714-1068"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-714-1068-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="117" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-714-1068"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="6"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-714-1068-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="118" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-715-1107"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-715-1107-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="119" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-715-1107"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-715-1107-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="120" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-715-1321"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-715-1321-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="121" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-715-1405"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-715-1405-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="122" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1063"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="6"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1063-E10"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="123" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1071"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1071-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="124" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1094"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1094-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="125" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1151"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1151-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="126" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1189"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="4"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1189-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="127" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1229"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1229-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="128" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1298"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1298-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="129" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1298"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="6"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1298-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="130" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1373"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1373-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="131" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1066"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1066-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="132" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1079"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="2"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1079-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="133" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1079"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1079-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="134" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1170"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="5"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1170-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="135" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1250"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="9"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1250-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="136" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1250"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="10"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1250-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="137" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1250"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="11"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1250-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="138" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1371"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="3"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1371-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="139" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="AE"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1371"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="AESEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="6"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1371-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="140" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1023"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1023-E09"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="141" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1047"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1047-E09"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="142" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1111"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1111-E16"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="143" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1115"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1115-E13"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="144" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1146"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1146-E13"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="145" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1180"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1180-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="146" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1181"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1181-E16"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="147" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1188"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1188-E09"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="148" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1211"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1211-E11"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="149" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1294"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1294-E09"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="150" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1302"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1302-E16"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="151" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1341"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1341-E13"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="152" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-701-1444"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-701-1444-E16"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="153" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1076"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1076-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="154" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1086"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1086-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="155" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1119"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1119-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="156" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1182"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1182-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="157" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1258"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1258-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="158" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-703-1403"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-703-1403-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="159" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1008"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1008-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="160" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1017"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1017-E11"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="161" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1025"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1025-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="162" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1065"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1065-E12"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="163" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1074"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1074-E09"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="164" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1093"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1093-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="165" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1120"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1120-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="166" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1241"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1241-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="167" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1266"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1266-E10"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="168" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1323"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1323-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="169" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1332"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1332-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="170" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-704-1445"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-704-1445-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="171" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1059"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1059-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="172" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1199"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1199-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="173" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1281"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1281-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="174" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1303"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1303-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="175" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1310"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1310-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="176" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-705-1393"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-705-1393-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="177" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-706-1049"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-706-1049-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="178" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-706-1384"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-706-1384-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="179" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1019"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1019-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="180" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1032"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1032-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="181" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1158"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1158-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="182" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1213"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1213-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="183" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1216"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1216-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="184" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1297"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1297-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="185" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1347"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1347-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="186" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1353"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1353-E10"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="187" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-708-1428"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-708-1428-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="188" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1007"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1007-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="189" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1081"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1081-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="190" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1102"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1102-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="191" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1168"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1168-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="192" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1217"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1217-E10"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="193" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1238"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1238-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="194" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1306"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1306-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="195" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-709-1424"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-709-1424-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="196" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1002"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1002-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="197" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1021"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1021-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="198" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1045"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1045-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="199" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1053"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1053-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="200" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1070"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1070-E12"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="201" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1083"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1083-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="202" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1137"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1137-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="203" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1142"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1142-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="204" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1154"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1154-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="205" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1166"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1166-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="206" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1264"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1264-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="207" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1270"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1270-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="208" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1271"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1271-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="209" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1278"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1278-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="210" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1300"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1300-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="211" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1315"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1315-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="212" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-710-1385"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-710-1385-E12"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="213" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-711-1012"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-711-1012-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="214" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-711-1143"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-711-1143-E21"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="215" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-711-1433"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-711-1433-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="216" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-713-1141"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-713-1141-E05"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="217" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-713-1448"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-713-1448-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="218" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-714-1068"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-714-1068-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="219" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-715-1107"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-715-1107-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="220" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-715-1321"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-715-1321-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="221" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-715-1405"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-715-1405-E02"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="222" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1063"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1063-E10"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="223" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1071"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1071-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="224" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1094"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1094-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="225" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1151"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1151-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="226" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1189"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1189-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="227" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1229"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1229-E01"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="228" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1298"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1298-E07"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="229" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-716-1373"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-716-1373-E04"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="230" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1066"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1066-E08"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="231" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1079"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1079-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="232" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1170"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1170-E03"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="233" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1250"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1250-E06"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="234" ItemGroupOID="RELREC">
+         <ItemData ItemOID="RELREC.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="RELREC.RDOMAIN" Value="DS"/>
+         <ItemData ItemOID="RELREC.USUBJID" Value="01-718-1371"/>
+         <ItemData ItemOID="RELREC.IDVAR" Value="DSSEQ"/>
+         <ItemData ItemOID="RELREC.IDVARVAL" Value="1"/>
+         <ItemData ItemOID="RELREC.RELID" Value="01-718-1371-E08"/>
+      </ItemGroupData>
+   </ClinicalData>
+</ODM>

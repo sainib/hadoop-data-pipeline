@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ODM xmlns:data="http://www.cdisc.org/ns/Dataset-XML/v1.0"
+     xmlns="http://www.cdisc.org/ns/odm/v1.3"
+     data:DatasetXMLVersion="1.0.0"
+     ODMVersion="1.3.2"
+     FileType="Snapshot"
+     FileOID="SDTM-XML"
+     CreationDateTime="2012-12-08T23:06:03.046+01:00">
+   <ReferenceData StudyOID="LZZT" MetaDataVersionOID="CDISC.SDTM.3.1.0">
+      <ItemGroupData data:ItemGroupDataSeq="1" ItemGroupOID="TE">
+         <ItemData ItemOID="TE.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TE.DOMAIN" Value="TE"/>
+         <ItemData ItemOID="TE.ETCD" Value="FOLO"/>
+         <ItemData ItemOID="TE.ELEMENT" Value="Follow_up"/>
+         <ItemData ItemOID="TE.TESTRL"
+                   Value="End of last scheduled visit on study (including early termination)"/>
+         <ItemData ItemOID="TE.TEENRL"
+                   Value="Completion of all specified followup activities (which vary on a patient-by-patient basis)"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="2" ItemGroupOID="TE">
+         <ItemData ItemOID="TE.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TE.DOMAIN" Value="TE"/>
+         <ItemData ItemOID="TE.ETCD" Value="HIE"/>
+         <ItemData ItemOID="TE.ELEMENT" Value="High_End"/>
+         <ItemData ItemOID="TE.TESTRL"
+                   Value="Administration of first dose (from patches supplied at Visit 12)"/>
+         <ItemData ItemOID="TE.TEDUR" Value="P2W"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="3" ItemGroupOID="TE">
+         <ItemData ItemOID="TE.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TE.DOMAIN" Value="TE"/>
+         <ItemData ItemOID="TE.ETCD" Value="HIM"/>
+         <ItemData ItemOID="TE.ELEMENT" Value="High_Middle"/>
+         <ItemData ItemOID="TE.TESTRL"
+                   Value="Administration of first dose (from patches supplied at Visit 4)"/>
+         <ItemData ItemOID="TE.TEDUR" Value="P22W"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="4" ItemGroupOID="TE">
+         <ItemData ItemOID="TE.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TE.DOMAIN" Value="TE"/>
+         <ItemData ItemOID="TE.ETCD" Value="HIS"/>
+         <ItemData ItemOID="TE.ELEMENT" Value="High_Start"/>
+         <ItemData ItemOID="TE.TESTRL" Value="Administration of first dose"/>
+         <ItemData ItemOID="TE.TEDUR" Value="P2W"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="5" ItemGroupOID="TE">
+         <ItemData ItemOID="TE.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TE.DOMAIN" Value="TE"/>
+         <ItemData ItemOID="TE.ETCD" Value="LO"/>
+         <ItemData ItemOID="TE.ELEMENT" Value="Low"/>
+         <ItemData ItemOID="TE.TESTRL" Value="Administration of first dose"/>
+         <ItemData ItemOID="TE.TEDUR" Value="P26W"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="6" ItemGroupOID="TE">
+         <ItemData ItemOID="TE.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TE.DOMAIN" Value="TE"/>
+         <ItemData ItemOID="TE.ETCD" Value="PBO"/>
+         <ItemData ItemOID="TE.ELEMENT" Value="Placebo"/>
+         <ItemData ItemOID="TE.TESTRL" Value="Administration of first dose"/>
+         <ItemData ItemOID="TE.TEDUR" Value="P26W"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="7" ItemGroupOID="TE">
+         <ItemData ItemOID="TE.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TE.DOMAIN" Value="TE"/>
+         <ItemData ItemOID="TE.ETCD" Value="SCRN"/>
+         <ItemData ItemOID="TE.ELEMENT" Value="Screen"/>
+         <ItemData ItemOID="TE.TESTRL" Value="Informed consent"/>
+         <ItemData ItemOID="TE.TEENRL"
+                   Value="Completion of all screening activities and no more than 2 weeks from informed consent"/>
+      </ItemGroupData>
+   </ReferenceData>
+</ODM>

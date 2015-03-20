@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ODM xmlns:data="http://www.cdisc.org/ns/Dataset-XML/v1.0"
+     xmlns="http://www.cdisc.org/ns/odm/v1.3"
+     data:DatasetXMLVersion="1.0.0"
+     ODMVersion="1.3.2"
+     FileType="Snapshot"
+     FileOID="SDTM-XML"
+     CreationDateTime="2012-12-08T23:06:03.046+01:00">
+   <ReferenceData StudyOID="LZZT" MetaDataVersionOID="CDISC.SDTM.3.1.0">
+      <ItemGroupData data:ItemGroupDataSeq="1" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="INCL01"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Males and postmenopausal females at least 50 years of age."/>
+         <ItemData ItemOID="TI.IECAT" Value="INCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="2" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="INCL02"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Diagnosis of probable AD as defined by NINCDS and the ADRDA guidelines (Protocol Attachment LZZT.7)."/>
+         <ItemData ItemOID="TI.IECAT" Value="INCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="3" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="INCL03"/>
+         <ItemData ItemOID="TI.IETEST" Value="MMSE score of 10 to 23."/>
+         <ItemData ItemOID="TI.IECAT" Value="INCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="4" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="INCL04"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Modified Hachinski Ischemic Scale score of &lt;= 4. (Protocol Attachment LZZT.8)."/>
+         <ItemData ItemOID="TI.IECAT" Value="INCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="5" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="INCL05"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="CNS imaging (CT scan or MRI of brain) compatible with AD within past 1 year."/>
+         <ItemData ItemOID="TI.IECAT" Value="INCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="6" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="INCL06"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Investigator has obtained informed consent signed by the patient (and/or legal representative) and by the caregiver."/>
+         <ItemData ItemOID="TI.IECAT" Value="INCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="7" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="INCL07"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Geographic proximity to investigator's site that allows adequate follow-up."/>
+         <ItemData ItemOID="TI.IECAT" Value="INCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="8" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="INCL08"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Caregiver will monitor administration of prescribed medications, and will be responsible for the overall care of the patient at home."/>
+         <ItemData ItemOID="TI.IECAT" Value="INCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="9" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL09"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Persons who have previously completed or withdrawn from this study or any other investigating xanomeline TTS or the oral formulation of xanomeline."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="10" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL10"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Use of any investigational agent or approved Alzheimer's therapeutic medication within 30 days prior to enrollment into the study."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="11" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL11"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Serious illness which required hospitalization within 3 months of screening."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="12" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL12"/>
+         <ItemData ItemOID="TI.IETEST" Value="Diagnosis of serious neurological conditions."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="13" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL13"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Episode of depression meeting DSM-IV criteria within 3 months of screening."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="14" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL14"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="A history of mental illness within the last 5 years."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="15" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL15"/>
+         <ItemData ItemOID="TI.IETEST" Value="A history of syncope within the last 5 years."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="16" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL16"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Evidence from ECG recording at screening of any listed condition."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="17" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL17"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="A history within the last 5 years of a serious cardiovascular disorder."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="18" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL18"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="A history within the last 5 years of a serious gastrointestinal disorder."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="19" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL19"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="A history within the last 5 years of a serious endocrine disorder."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="20" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL20"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="A history within the last 5 years of a serious respiratory disorder (see list)."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="21" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL21"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="A history within the last 5 years of a serious genitourinary disorder."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="22" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL22"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="A history within the last 5 years of a serious rheumatologic disorder."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="23" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL23"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="A known history of human immunodeficiency virus (HIV) within the last 5 years."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="24" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL24"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="A history within the last 5 years of a serious infectious disease (see list in protocol)."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="25" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL25"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="A history within the last 5 years of a primary or recurrent malignant disease (with exceptions, see list in protocol)."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="26" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL26"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Visual, hearing, or communication disabilities impairing the ability to participate in the study; (for example, inability to speak or understand English, illiteracy)."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="27" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL27"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Laboratory test values exceeding the Lilly Reference Range III for the patient's age in any of the following analytes: creatinine, total bilirubin, SGOT, SGPT, etc."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="28" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL28"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Central laboratory test values below reference range for folate, and vitamin B12, and outside reference range for thyroid function tests."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="29" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL29"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Positive syphilis screening with confirmatory testing."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="30" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL30"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Central laboratory test value above reference range for glycosylated hemoglobin (A1C) (insulin dependent diabetes mellitus patients only)."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="31" ItemGroupOID="TI">
+         <ItemData ItemOID="TI.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TI.DOMAIN" Value="TI"/>
+         <ItemData ItemOID="TI.IETESTCD" Value="EXCL31"/>
+         <ItemData ItemOID="TI.IETEST"
+                   Value="Treatment with medications within 1 month prior to enrollment (see list)."/>
+         <ItemData ItemOID="TI.IECAT" Value="EXCLUSION"/>
+         <ItemData ItemOID="TI.TIRL" IsNull="Yes"/>
+      </ItemGroupData>
+   </ReferenceData>
+</ODM>

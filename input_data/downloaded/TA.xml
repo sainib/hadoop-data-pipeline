@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ODM xmlns:data="http://www.cdisc.org/ns/Dataset-XML/v1.0"
+     xmlns="http://www.cdisc.org/ns/odm/v1.3"
+     data:DatasetXMLVersion="1.0.0"
+     ODMVersion="1.3.2"
+     FileType="Snapshot"
+     FileOID="SDTM-XML"
+     CreationDateTime="2012-12-08T23:06:03.046+01:00">
+   <ReferenceData StudyOID="LZZT" MetaDataVersionOID="CDISC.SDTM.3.1.0">
+      <ItemGroupData data:ItemGroupDataSeq="1" ItemGroupOID="TA">
+         <ItemData ItemOID="TA.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TA.DOMAIN" Value="TA"/>
+         <ItemData ItemOID="TA.ARMCD" Value="Pbo"/>
+         <ItemData ItemOID="TA.ARM" Value="Placebo"/>
+         <ItemData ItemOID="TA.TAETORD" Value="1"/>
+         <ItemData ItemOID="TA.ETCD" Value="SCRN"/>
+         <ItemData ItemOID="TA.ELEMENT" Value="Screen"/>
+         <ItemData ItemOID="TA.TABRANCH" Value="Randomized to Placebo"/>
+         <ItemData ItemOID="TA.EPOCH" Value="Screening"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="2" ItemGroupOID="TA">
+         <ItemData ItemOID="TA.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TA.DOMAIN" Value="TA"/>
+         <ItemData ItemOID="TA.ARMCD" Value="Pbo"/>
+         <ItemData ItemOID="TA.ARM" Value="Placebo"/>
+         <ItemData ItemOID="TA.TAETORD" Value="2"/>
+         <ItemData ItemOID="TA.ETCD" Value="PBO"/>
+         <ItemData ItemOID="TA.ELEMENT" Value="Placebo"/>
+         <ItemData ItemOID="TA.EPOCH" Value="Treatment"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="3" ItemGroupOID="TA">
+         <ItemData ItemOID="TA.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TA.DOMAIN" Value="TA"/>
+         <ItemData ItemOID="TA.ARMCD" Value="Xan_Hi"/>
+         <ItemData ItemOID="TA.ARM" Value="Xanomeline High Dose"/>
+         <ItemData ItemOID="TA.TAETORD" Value="1"/>
+         <ItemData ItemOID="TA.ETCD" Value="SCRN"/>
+         <ItemData ItemOID="TA.ELEMENT" Value="Screen"/>
+         <ItemData ItemOID="TA.TABRANCH" Value="Randomized to High Dose"/>
+         <ItemData ItemOID="TA.EPOCH" Value="Screening"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="4" ItemGroupOID="TA">
+         <ItemData ItemOID="TA.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TA.DOMAIN" Value="TA"/>
+         <ItemData ItemOID="TA.ARMCD" Value="Xan_Hi"/>
+         <ItemData ItemOID="TA.ARM" Value="Xanomeline High Dose"/>
+         <ItemData ItemOID="TA.TAETORD" Value="2"/>
+         <ItemData ItemOID="TA.ETCD" Value="HIS"/>
+         <ItemData ItemOID="TA.ELEMENT" Value="High_Start"/>
+         <ItemData ItemOID="TA.EPOCH" Value="Treatment"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="5" ItemGroupOID="TA">
+         <ItemData ItemOID="TA.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TA.DOMAIN" Value="TA"/>
+         <ItemData ItemOID="TA.ARMCD" Value="Xan_Hi"/>
+         <ItemData ItemOID="TA.ARM" Value="Xanomeline High Dose"/>
+         <ItemData ItemOID="TA.TAETORD" Value="3"/>
+         <ItemData ItemOID="TA.ETCD" Value="HIM"/>
+         <ItemData ItemOID="TA.ELEMENT" Value="High_Middle"/>
+         <ItemData ItemOID="TA.EPOCH" Value="Treatment"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="6" ItemGroupOID="TA">
+         <ItemData ItemOID="TA.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TA.DOMAIN" Value="TA"/>
+         <ItemData ItemOID="TA.ARMCD" Value="Xan_Hi"/>
+         <ItemData ItemOID="TA.ARM" Value="Xanomeline High Dose"/>
+         <ItemData ItemOID="TA.TAETORD" Value="4"/>
+         <ItemData ItemOID="TA.ETCD" Value="HIE"/>
+         <ItemData ItemOID="TA.ELEMENT" Value="High_End"/>
+         <ItemData ItemOID="TA.EPOCH" Value="Treatment"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="7" ItemGroupOID="TA">
+         <ItemData ItemOID="TA.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TA.DOMAIN" Value="TA"/>
+         <ItemData ItemOID="TA.ARMCD" Value="Xan_Lo"/>
+         <ItemData ItemOID="TA.ARM" Value="Xanomeline Low Dose"/>
+         <ItemData ItemOID="TA.TAETORD" Value="1"/>
+         <ItemData ItemOID="TA.ETCD" Value="SCRN"/>
+         <ItemData ItemOID="TA.ELEMENT" Value="Screen"/>
+         <ItemData ItemOID="TA.TABRANCH" Value="Randomized to Low Dose"/>
+         <ItemData ItemOID="TA.EPOCH" Value="Screening"/>
+      </ItemGroupData>
+      <ItemGroupData data:ItemGroupDataSeq="8" ItemGroupOID="TA">
+         <ItemData ItemOID="TA.STUDYID" Value="CDISCPILOT01"/>
+         <ItemData ItemOID="TA.DOMAIN" Value="TA"/>
+         <ItemData ItemOID="TA.ARMCD" Value="Xan_Lo"/>
+         <ItemData ItemOID="TA.ARM" Value="Xanomeline Low Dose"/>
+         <ItemData ItemOID="TA.TAETORD" Value="2"/>
+         <ItemData ItemOID="TA.ETCD" Value="LO"/>
+         <ItemData ItemOID="TA.ELEMENT" Value="Low"/>
+         <ItemData ItemOID="TA.EPOCH" Value="Treatment"/>
+      </ItemGroupData>
+   </ReferenceData>
+</ODM>
