@@ -5,7 +5,7 @@ chkconfig ntpd on
 
 echo "Changing Feed File"
 
-project_root="/app/hadoop-demos/data-pipeline/flow1"
+project_root="/app/hadoop-data-pipeline"
 cd ${project_root}/falcon/feeds
 rm -rf inputFeed.xml.ORIGINAL
 cp inputFeed.xml inputFeed.xml.ORIGINAL

@@ -3,7 +3,7 @@
 set +vx 
 
 un=`whoami`
-project_root="/app/hadoop-demos/data-pipeline/flow1"
+project_root="/app/hadoop-data-pipeline"
 if [ $un == 'root' ]; then
 
 #hql File Directories
@@ -62,25 +62,25 @@ su - hdfs -c "hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_dem
 echo "Created Falcon workflow directory - Done"
 
 echo "Creating Hive Tables - Start"
-su - ambari-qa -c "hive -e /app/hadoop-demos/data-pipeline/flow1/hql/DDL/create-tables.hql"
+su - ambari-qa -c "hive -e ${project_root}/hql/DDL/create-tables.hql"
 echo "Creating Hive Tables - Done"
 
 echo "Adding JSON Serde Jar - Start"
-su - ambari-qa -c "hive -e /app/hadoop-demos/data-pipeline/flow1/hql/DDL/add-json-serde.hql"
+su - ambari-qa -c "hive -e ${project_root}/hql/DDL/add-json-serde.hql"
 echo "Adding JSON Serde Jar - Start"
 
 echo "Creating UDFs - Start"
-su - ambari-qa -c "hive -e /app/hadoop-demos/data-pipeline/flow1/hql/DDL/create-udfs.hql"
+su - ambari-qa -c "hive -e ${project_root}/hql/DDL/create-udfs.hql"
 echo "Creating UDFs - Done"
 
 echo "Setting up flume - Start"
 mkdir -p /root/data_pipeline_demo/input
 cp /etc/flume/conf/flume.conf /etc/flume/conf/flume.conf.bak
-cp /app/hadoop-demos/data-pipeline/flow1/flume/flume.conf /etc/flume/conf/flume.conf
+cp ${project_root}/flume/flume.conf /etc/flume/conf/flume.conf
 echo "Setting up flume - Done"
 
 echo "Setting up MYSQL JDBC driver for Sqoop - Start"
-cp /app/hadoop-demos/data-pipeline/flow1/jars/mysql-connector-java.jar /usr/share/java/
+cp ${project_root}/jars/mysql-connector-java.jar /usr/share/java/
 cd /usr/lib/hadoop/
 ln -s /usr/share/java/mysql-connector-java.jar
 cd -
@@ -91,7 +91,7 @@ echo "Setting up MYSQL JDBC driver for Sqoop - Done"
 
 echo "Setting up MYSQL Database - Start"
 echo "****Assuming MySQL Database is installed****"
-mysql < /app/hadoop-demos/data-pipeline/flow1/sql/ddl.sql
+mysql < ${project_root}/sql/ddl.sql
 echo "Setting up MYSQL Database - Done"
 
 echo "Starting the Flume Agent - Start"
@@ -103,6 +103,6 @@ echo "Starting the Flume Agent - Done"
 
 else
 
-echo "Error : Unable to switch to user hdfs. Run as root"
+echo "Error : Unable to switch user. Run as root"
 
 fi

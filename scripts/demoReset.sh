@@ -1,6 +1,6 @@
 #!/bin/bash
 
-project_root="/app/hadoop-demos/data-pipeline/flow1"
+project_root="/app/hadoop-data-pipeline"
 
 un=`whoami`
 if [ $un == 'root' ]; then

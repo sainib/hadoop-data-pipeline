@@ -3,7 +3,7 @@
 set +vx 
 
 un=`whoami`
-project_root="/app/hadoop-demos/data-pipeline/flow1"
+project_root="/app/hadoop-data-pipeline"
 if [ $un == 'root' ]; then
 
 su - ambari-qa -c "hdfs dfs -put ${project_root}/hql/* /user/ambari-qa/data_pipeline_demo/hql/"

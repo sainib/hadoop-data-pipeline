@@ -21,7 +21,7 @@ In this flow, there are following processes and steps
 		
 ## Architecture
 
-![Data Pipeline Flow 1 - Architecture](https://raw.githubusercontent.com/sainib/hadoop-demos/master/data-pipeline/flow1/architecture.png)		
+![Data Pipeline Flow 1 - Architecture](https://raw.githubusercontent.com/sainib/hadoop-data-pipeline/master/architecture.png)		
 
 ## Setting up the project	
 
@@ -31,7 +31,7 @@ Pre-requisite - Download and install [Hortonworks Sandbox](http://www.hortonwork
 IMPORTANT NOTE : 
 
 This demo assumes that the automated process will be running as user - ambari-qa. 
-So, it is necessary to make sure that file and directory permissions are adjusted appropriately, if you plan on using another user. 
+So, it is necessary to make sure that file and directory permissions are adjusted appropriately, if you plan on using another user. Also
 ```
 
 * Get the source code ( git clone <repo-url> ) on sandbox VM. This demo assumes that the code is checked out in /app
@@ -42,7 +42,7 @@ So, it is necessary to make sure that file and directory permissions are adjuste
 ```
 Note: There are two ways to install and configure. 
 	1. Follow the step by step instructions to install it  ( if you want to learn the nitty gritty of this demo ) 
-	2. Use the scripts in hadoop-demos/data-pipeline/flow1/scripts directory ( if you want to set it up quickly ) 
+	2. Use the scripts in hadoop-data-pipeline/scripts directory ( if you want to set it up quickly ) 
 ```
 
 ## Installation Approach 1 - Step by Step
@@ -140,16 +140,16 @@ hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/falcon/workf
 * Copy the required files to HDFS
 ```
 su - ambari-qa
-hdfs dfs -put /app/hadoop-demos/data-pipeline/flow1/hql/* /user/ambari-qa/data_pipeline_demo/hql/
+hdfs dfs -put /app/hadoop-data-pipeline/hql/* /user/ambari-qa/data_pipeline_demo/hql/
 
-hdfs dfs -put /app/hadoop-demos/data-pipeline/flow1/jars/* /user/ambari-qa/data_pipeline_demo/jars/
+hdfs dfs -put /app/hadoop-data-pipeline/jars/* /user/ambari-qa/data_pipeline_demo/jars/
 
 hdfs dfs -put /etc/hive/conf/hive-site.xml /user/ambari-qa/data_pipeline_demo/conf
 
-hdfs dfs -put /app/hadoop-demos/data-pipeline/flow1/udf/target/* /user/ambari-qa/data_pipeline_demo/jars/
+hdfs dfs -put /app/hadoop-data-pipeline/udf/target/* /user/ambari-qa/data_pipeline_demo/jars/
 hdfs dfs -put /usr/hdp/2.2.0.0-2041/hive-hcatalog/share/hcatalog/hive-hcatalog-core.jar /user/ambari-qa/data_pipeline_demo/jars/
 
-hdfs dfs -put /app/hadoop-demos/data-pipeline/flow1/falcon/workflow/* /user/ambari-qa/data_pipeline_demo/falcon/workflow/
+hdfs dfs -put /app/hadoop-data-pipeline/falcon/workflow/* /user/ambari-qa/data_pipeline_demo/falcon/workflow/
 ```
 
 
@@ -159,7 +159,7 @@ Note: The user who will be submitting Falcon jobs needs to have write permission
 
 ```
 su - ambari-qa
-hive -e /app/hadoop-demos/data-pipeline/flow1/hql/DDL/create-tables.hql
+hive -e /app/hadoop-data-pipeline/hql/DDL/create-tables.hql
 ```
 
 * Add JSON Serde Jar to Hive
@@ -245,23 +245,23 @@ nohup flume-ng agent -c /etc/flume/conf -f /etc/flume/conf/flume.conf -n sandbox
 * Submitting and Scheduling the Falcon jobs
 
 ```
-falcon entity -submit -type cluster -file /app/hadoop-demos/data-pipeline/flow1/falcon/cluster/primaryCluster.xml
-falcon entity -submit -type feed -file /app/hadoop-demos/data-pipeline/flow1/falcon/feeds/inputFeed.xml
-falcon entity -submit -type process -file /app/hadoop-demos/data-pipeline/flow1/falcon/process/processData.xml
+falcon entity -submit -type cluster -file /app/hadoop-data-pipeline/falcon/cluster/primaryCluster.xml
+falcon entity -submit -type feed -file /app/hadoop-data-pipeline/falcon/feeds/inputFeed.xml
+falcon entity -submit -type process -file /app/hadoop-data-pipeline/falcon/process/processData.xml
 falcon entity -schedule -type feed -name demoEventData
 falcon entity -schedule -type process -name demoEventProcess
 ```
 
 Note - 
 
-* Verify the properties in /app/hadoop-demos/data-pipeline/flow1/falcon/process/processData.xml (within the properties block)
-* The validity in /app/hadoop-demos/data-pipeline/flow1/falcon/feeds/inputFeed.xml and /app/hadoop-demos/data-pipeline/flow1/falcon/process/processData.xml should be in UTC timezone. Also, adjust the frequency as needed & set the validity time to the current time (or as needed). 
+* Verify the properties in /app/hadoop-data-pipeline/falcon/process/processData.xml (within the properties block)
+* The validity in /app/hadoop-data-pipeline/falcon/feeds/inputFeed.xml and /app/hadoop-data-pipeline/falcon/process/processData.xml should be in UTC timezone. Also, adjust the frequency as needed & set the validity time to the current time (or as needed). 
 
 ### Supplying the input data 
 
 * Copy the sample data provided in ./input_data/ to the flume spool directory
 ```
-cp /app/hadoop-demos/data-pipeline/flow1/input_data/SV-sample-1.xml /root/data_pipeline_demo/input
+cp /app/hadoop-data-pipeline/input_data/SV-sample-1.xml /root/data_pipeline_demo/input
 ```
 
 
@@ -282,7 +282,7 @@ falcon entity -delete -type cluster -name primaryCluster
 * Setup the demo.  Run these commands as root. 
 ```
 
-cd /app/hadoop-demos/data-pipeline/flow1/scripts
+cd /app/hadoop-data-pipeline/scripts
 
 bash setupAppOnHDFS.sh
 bash changeValidityForFeed.sh 
@@ -296,7 +296,7 @@ bash scheduleEntities.sh
 
 * To stop the processing 
 ```
-cd /app/hadoop-demos/data-pipeline/flow1/scripts
+cd /app/hadoop-data-pipeline/scripts
 bash suspendEntites.sh
 bash deleteEntities.sh
 ```

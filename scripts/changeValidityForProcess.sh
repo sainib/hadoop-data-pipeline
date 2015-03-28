@@ -4,7 +4,7 @@ set +vx
 service ntpd start
 chkconfig ntpd on
 
-project_root="/app/hadoop-demos/data-pipeline/flow1"
+project_root="/app/hadoop-data-pipeline"
 
 echo "Changing Process File"
 cd ${project_root}/falcon/process
