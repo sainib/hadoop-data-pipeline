@@ -33,6 +33,12 @@
         <shell xmlns="uri:oozie:shell-action:0.1">
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
+            <configuration>
+				<property>
+				   <name>mapred.job.queue.name</name>
+				   <value>${queueName}</value>
+				</property>            
+		    </configuration>
             <exec>hdfs</exec>
               <argument>dfs</argument>
               <argument>-mv</argument>
@@ -47,6 +53,12 @@
         <shell xmlns="uri:oozie:shell-action:0.1">
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
+            <configuration>
+				<property>
+				   <name>mapred.job.queue.name</name>
+				   <value>${queueName}</value>
+				</property>            
+		    </configuration>
             <exec>hdfs</exec>
               <argument>dfs</argument>
               <argument>-cp</argument>
@@ -77,8 +89,18 @@
     <action name="load_raw_data">
         <hive xmlns="uri:oozie:hive-action:0.2">
             <job-tracker>${jobTracker}</job-tracker>
-            <name-node>${nameNode}</name-node>
+            <name-node>${nameNode}</name-node>            
             <job-xml>${workflow_root_dir}/conf/hive-site.xml</job-xml>            
+            <configuration>
+				<property>
+				   <name>mapred.job.queue.name</name>
+				   <value>${queueName}</value>
+				</property>            
+				<property>
+				   <name>tez.queue.name</name>
+				   <value>${queueName}</value>
+				</property>            
+		    </configuration>
             <script>${workflow_root_dir}/hql/DML/load_raw_data.hql</script>
 			<param>execution_id=${execution_id}</param>
 			<param>workflow_root_dir=${workflow_root_dir}</param>
@@ -94,6 +116,16 @@
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
             <job-xml>${workflow_root_dir}/conf/hive-site.xml</job-xml>            
+            <configuration>
+				<property>
+				   <name>mapred.job.queue.name</name>
+				   <value>${queueName}</value>
+				</property>            
+				<property>
+				   <name>tez.queue.name</name>
+				   <value>${queueName}</value>
+				</property>            
+		    </configuration>            
             <script>${workflow_root_dir}/hql/DML/aggregate.hql</script>
 			<param>execution_id=${execution_id}</param>
 			<param>workflow_root_dir=${workflow_root_dir}</param>
@@ -115,6 +147,16 @@
         <sqoop xmlns="uri:oozie:sqoop-action:0.2">
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
+            <configuration>
+				<property>
+				   <name>mapred.job.queue.name</name>
+				   <value>${queueName}</value>
+				</property>            
+				<property>
+				   <name>tez.queue.name</name>
+				   <value>${queueName}</value>
+				</property>            
+		    </configuration>            
             <arg>export</arg>
             <arg>--connect</arg>
             <arg>${EXPORT_JDBC_URL}</arg>

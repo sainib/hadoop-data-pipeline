@@ -39,6 +39,8 @@
 		<property name="json_events_master_table" value="sv_json_data_master" />		
 
 		<property name="audit_table_name" value="demo_job_audit_info" />
+
+		<property name="queueName" value="analytics-production" />		
 		
 		<property name="EXPORT_JDBC_URL" value="jdbc:mysql://localhost:3306/demomysql" />
 		<property name="EXPORT_USER_ID" value="demouser" />
