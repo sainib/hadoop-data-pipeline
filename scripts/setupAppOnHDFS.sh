@@ -62,15 +62,15 @@ su - hdfs -c "hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_dem
 echo "Created Falcon workflow directory - Done"
 
 echo "Creating Hive Tables - Start"
-su - ambari-qa -c "hive -e ${project_root}/hql/DDL/create-tables.hql"
+su - ambari-qa -c "hive -f ${project_root}/hql/DDL/create-tables.hql"
 echo "Creating Hive Tables - Done"
 
 echo "Adding JSON Serde Jar - Start"
-su - ambari-qa -c "hive -e ${project_root}/hql/DDL/add-json-serde.hql"
+su - ambari-qa -c "hive -f ${project_root}/hql/DDL/add-json-serde.hql"
 echo "Adding JSON Serde Jar - Start"
 
 echo "Creating UDFs - Start"
-su - ambari-qa -c "hive -e ${project_root}/hql/DDL/create-udfs.hql"
+su - ambari-qa -c "hive -f ${project_root}/hql/DDL/create-udfs.hql"
 echo "Creating UDFs - Done"
 
 echo "Setting up flume - Start"
