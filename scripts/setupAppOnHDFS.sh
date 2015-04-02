@@ -26,6 +26,8 @@ echo "Create jars File  directory - Start"
 su - hdfs -c "hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/jars"
 su - hdfs -c "hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/jars"
 su - hdfs -c "hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/jars"
+su - hdfs -c "hdfs dfs -put /usr/hdp/2.2.0.0-2041/hive-hcatalog/share/hcatalog/hive-hcatalog-core.jar /user/ambari-qa/data_pipeline_demo/jars/"
+su - hdfs -c "hdfs dfs -put /app/hadoop-data-pipeline/udf/target/MyXml2JsonUdf.jar /user/ambari-qa/data_pipeline_demo/jars/"
 echo "Create jars File  directory - Done"
   
 #Data File Directories 
