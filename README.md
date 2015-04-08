@@ -159,7 +159,7 @@ Note: The user who will be submitting Falcon jobs needs to have write permission
 
 ```
 su - ambari-qa
-hive -e /app/hadoop-data-pipeline/hql/DDL/create-tables.hql
+hive -f /app/hadoop-data-pipeline/hql/DDL/create-tables.hql
 ```
 
 * Add JSON Serde Jar to Hive
@@ -192,7 +192,7 @@ Follow the README.MD within the ./udf directory for more details.
 
 
 #### Flume
-* Use these instructions to setup  the flume part of the project using spooling directory flume configurations. See [Flume Spooling Dir Docs](https://flume.apache.org/FlumeUserGuide.html#spooling-directory-source)
+* Use these instructions to setup the flume part of the project using spooling directory flume configurations. See [Flume Spooling Dir Docs](https://flume.apache.org/FlumeUserGuide.html#spooling-directory-source)
 ```
  - On gateway server 
  - mkdir -p /root/data_pipeline_demo/input
@@ -299,6 +299,12 @@ bash scheduleEntities.sh
 cd /app/hadoop-data-pipeline/scripts
 bash suspendEntites.sh
 bash deleteEntities.sh
+```
+
+### Falcon Patches as of April 2015
+```
+Apply Falcon Patches 915 and 945 to make sure those bugs do not impact the flow. 
+
 ```
 
 
