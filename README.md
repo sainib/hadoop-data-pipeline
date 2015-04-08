@@ -292,7 +292,17 @@ bash copyAppToHDFS.sh
 bash submitEntities.sh
 bash scheduleEntities.sh
  
- ```
+```
+
+* Run the demo. Run these commands as root
+```
+
+cd /app/hadoop-demos/data-pipeline/flow1/scripts
+
+bash setupFlume.sh
+bash runTest.sh
+
+```
 
 * To stop the processing 
 ```
