@@ -1,7 +1,8 @@
 
 
 --add jar for the JSON Serde - path is local on the Hive Client server (NOT HDFS) 
-add jar /usr/hdp/2.2.0.0-2041/hive-hcatalog/share/hcatalog/hive-hcatalog-core.jar;
+--add jar /usr/hdp/2.2.0.0-2041/hive-hcatalog/share/hcatalog/hive-hcatalog-core.jar;
+--add jar 'hdfs:///user/ambari-qa/data_pipeline_demo/jars/hive-hcatalog-core.jar';
 
 create database demodb;
 

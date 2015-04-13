@@ -287,7 +287,6 @@ cd /app/hadoop-data-pipeline/scripts
 bash setupAppOnHDFS.sh
 bash changeValidityForFeed.sh 
 bash changeValidityForProcess.sh 
-bash copyAppToHDFS.sh 
 
 bash submitEntities.sh
 bash scheduleEntities.sh

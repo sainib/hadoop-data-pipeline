@@ -6,11 +6,19 @@ un=`whoami`
 project_root="/app/hadoop-data-pipeline"
 if [ $un == 'root' ]; then
 
+#Create the project root directory
+echo "Create project root directory - Start"
+su - hdfs -c "hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo"
+su - hdfs -c "hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo"
+su - hdfs -c "hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo"
+echo "Create project root directory - Done"
+
 #hql File Directories
 echo "Create hql  File  directory - Start"
 su - hdfs -c "hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/hql"
 su - hdfs -c "hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/hql"
 su - hdfs -c "hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/hql"
+su - ambari-qa -c "hdfs dfs -put ${project_root}/hql/* /user/ambari-qa/data_pipeline_demo/hql/"
 echo "Create hql  File  directory - Done"
  
 #conf File Directories 
@@ -18,7 +26,7 @@ echo "Create conf File  directory - Start"
 su - hdfs -c "hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/conf"
 su - hdfs -c "hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/conf"
 su - hdfs -c "hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/conf"
-su - hdfs -c "hdfs dfs -put /etc/hive/conf/hive-site.xml /user/ambari-qa/data_pipeline_demo/conf"
+su - ambari-qa -c "hdfs dfs -put /etc/hive/conf/hive-site.xml /user/ambari-qa/data_pipeline_demo/conf"
 echo "Create conf File  directory - Done"
  
 #jars File Directories 
@@ -26,8 +34,9 @@ echo "Create jars File  directory - Start"
 su - hdfs -c "hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/jars"
 su - hdfs -c "hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/jars"
 su - hdfs -c "hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/jars"
-su - hdfs -c "hdfs dfs -put /usr/hdp/2.2.0.0-2041/hive-hcatalog/share/hcatalog/hive-hcatalog-core.jar /user/ambari-qa/data_pipeline_demo/jars/"
-su - hdfs -c "hdfs dfs -put /app/hadoop-data-pipeline/udf/target/MyXml2JsonUdf.jar /user/ambari-qa/data_pipeline_demo/jars/"
+su - ambari-qa -c "hdfs dfs -put /usr/hdp/2.2.0.0-2041/hive-hcatalog/share/hcatalog/hive-hcatalog-core.jar /user/ambari-qa/data_pipeline_demo/jars/"
+su - ambari-qa -c "hdfs dfs -put ${project_root}/udf/target/* /user/ambari-qa/data_pipeline_demo/jars/"
+su - ambari-qa -c "hdfs dfs -put ${project_root}/jars/* /user/ambari-qa/data_pipeline_demo/jars/"
 echo "Create jars File  directory - Done"
   
 #Data File Directories 
@@ -61,6 +70,7 @@ echo "Creating Falcon workflow directory - Start"
 su - hdfs -c "hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/falcon/workflow"
 su - hdfs -c "hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/falcon/workflow"
 su - hdfs -c "hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/falcon/workflow"
+su - ambari-qa -c "hdfs dfs -put ${project_root}/falcon/workflow/* /user/ambari-qa/data_pipeline_demo/falcon/workflow/"
 echo "Created Falcon workflow directory - Done"
 
 echo "Creating Hive Tables - Start"
