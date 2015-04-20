@@ -24,6 +24,8 @@
         <fs>
               <mkdir path='${nameNode}${workflow_root_dir}/data/process/${execution_id}'/>
               <mkdir path='${nameNode}${workflow_root_dir}/data/backup/${execution_id}'/>              
+              <chmod path='${nameNode}${workflow_root_dir}/data/process/${execution_id}' permissions='777' dir-files='true'/>
+              <chmod path='${nameNode}${workflow_root_dir}/data/backup/${execution_id}' permissions='777' dir-files='true'/>
         </fs>
         <ok to="move_data_to_process"/>
         <error to="end"/>
