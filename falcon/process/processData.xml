@@ -8,13 +8,13 @@
     
     <clusters>
         <cluster name="primaryCluster">
-			  <validity start="2015-03-14T00:00Z" end="2016-02-08T22:00Z"/>
+<validity start="2015-08-14T16:52Z" end="2015-08-24T16:51Z" />
         </cluster>
     </clusters>
     
     <parallel>1</parallel>
     <order>FIFO</order>
-    <frequency>minutes(3)</frequency>
+    <frequency>minutes(5)</frequency>
 
 	<inputs>
          <input name="eventData" feed="demoEventData" start="now(0,0)" end="now(0,0)" />

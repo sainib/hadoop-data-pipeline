@@ -4,7 +4,7 @@ set +vx
 
 un=`whoami`
 project_root="/app/hadoop-data-pipeline"
-hdp_version="2.2.0.0-2041"
+hdp_version="2.3.0.0-2557"
 if [ $un == 'root' ]; then
 
 #Create the project root directory

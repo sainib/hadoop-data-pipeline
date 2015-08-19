@@ -108,6 +108,27 @@
 			<param>workflow_root_dir=${workflow_root_dir}</param>
 			<param>hive_db=${hive_db}</param>
 			<param>xml_raw_table=${xml_raw_table}</param>        
+            <file>${workflow_root_dir}/jars/atlas-client-0.5.0.2.3.0.0-2557.jar</file>
+            <file>${workflow_root_dir}/jars/atlas-typesystem-0.5.0.2.3.0.0-2557.jar</file>
+            <file>${workflow_root_dir}/jars/hive-bridge-0.5.0.2.3.0.0-2557.jar</file>
+            <file>${workflow_root_dir}/jars/scala-reflect-2.10.4.jar</file>
+            <file>${workflow_root_dir}/jars/scalap-2.10.4.jar</file>
+            <file>${workflow_root_dir}/jars/scala-library-2.10.4.jar</file>
+            <file>${workflow_root_dir}/jars/scala-compiler-2.10.4.jar</file>
+            <file>${workflow_root_dir}/jars/json4s-native_2.10-3.2.11.jar</file>
+            <file>${workflow_root_dir}/jars/json4s-core_2.10-3.2.11.jar</file>
+            <file>${workflow_root_dir}/jars/json4s-ast_2.10-3.2.11.jar</file>
+            <archive>${workflow_root_dir}/jars/scala-reflect-2.10.4.jar</archive>
+            <archive>${workflow_root_dir}/jars/scalap-2.10.4.jar</archive>
+            <archive>${workflow_root_dir}/jars/scala-library-2.10.4.jar</archive>
+            <archive>${workflow_root_dir}/jars/scala-compiler-2.10.4.jar</archive>
+            <archive>${workflow_root_dir}/jars/json4s-native_2.10-3.2.11.jar</archive>
+            <archive>${workflow_root_dir}/jars/json4s-core_2.10-3.2.11.jar</archive>
+            <archive>${workflow_root_dir}/jars/json4s-ast_2.10-3.2.11.jar</archive>
+            <archive>${workflow_root_dir}/jars/atlas-client-0.5.0.2.3.0.0-2557.jar</archive>			
+            <archive>${workflow_root_dir}/jars/atlas-typesystem-0.5.0.2.3.0.0-2557.jar</archive>			
+            <archive>${workflow_root_dir}/jars/hive-bridge-0.5.0.2.3.0.0-2557.jar</archive>
+
         </hive>
         <ok to="aggregate_data"/>
         <error to="end"/>
@@ -139,6 +160,26 @@
 			<param>xml_archive_table=${xml_archive_table}</param>        
 			<param>json_events_master_table=${json_events_master_table}</param>        
             <file>${workflow_root_dir}/jars/hive-hcatalog-core.jar</file>
+            <file>${workflow_root_dir}/jars/atlas-client-0.5.0.2.3.0.0-2557.jar</file>
+            <file>${workflow_root_dir}/jars/atlas-typesystem-0.5.0.2.3.0.0-2557.jar</file>
+            <file>${workflow_root_dir}/jars/hive-bridge-0.5.0.2.3.0.0-2557.jar</file>
+            <file>${workflow_root_dir}/jars/scala-reflect-2.10.4.jar</file>
+            <file>${workflow_root_dir}/jars/scalap-2.10.4.jar</file>
+            <file>${workflow_root_dir}/jars/scala-library-2.10.4.jar</file>
+            <file>${workflow_root_dir}/jars/scala-compiler-2.10.4.jar</file>
+            <file>${workflow_root_dir}/jars/json4s-native_2.10-3.2.11.jar</file>
+            <file>${workflow_root_dir}/jars/json4s-core_2.10-3.2.11.jar</file>
+            <file>${workflow_root_dir}/jars/json4s-ast_2.10-3.2.11.jar</file>
+            <archive>${workflow_root_dir}/jars/scala-reflect-2.10.4.jar</archive>
+            <archive>${workflow_root_dir}/jars/scalap-2.10.4.jar</archive>
+            <archive>${workflow_root_dir}/jars/scala-library-2.10.4.jar</archive>
+            <archive>${workflow_root_dir}/jars/scala-compiler-2.10.4.jar</archive>
+            <archive>${workflow_root_dir}/jars/json4s-native_2.10-3.2.11.jar</archive>
+            <archive>${workflow_root_dir}/jars/json4s-core_2.10-3.2.11.jar</archive>
+            <archive>${workflow_root_dir}/jars/json4s-ast_2.10-3.2.11.jar</archive>
+            <archive>${workflow_root_dir}/jars/atlas-client-0.5.0.2.3.0.0-2557.jar</archive>
+            <archive>${workflow_root_dir}/jars/atlas-typesystem-0.5.0.2.3.0.0-2557.jar</archive>
+            <archive>${workflow_root_dir}/jars/hive-bridge-0.5.0.2.3.0.0-2557.jar</archive>
             <archive>${workflow_root_dir}/jars/hive-hcatalog-core.jar</archive>			
         </hive>
         <ok to="export_data"/>

@@ -13,7 +13,7 @@ use demodb;
 
 CREATE external TABLE if not exists raw_xml
 (
-row string
+myrow string
 ) STORED AS TEXTFILE LOCATION '/user/ambari-qa/data_pipeline_demo/hivedb/raw_xml';
 
 
@@ -21,7 +21,7 @@ row string
 
 CREATE external TABLE if not exists raw_json
 (
-row string
+myrow string
 ) STORED AS TEXTFILE LOCATION '/user/ambari-qa/data_pipeline_demo/hivedb/raw_json';
 
 
@@ -54,7 +54,7 @@ visit_count int
 
 CREATE external TABLE if not exists xml_data_archive
 (
-row string
+myrow string
 ) STORED AS TEXTFILE LOCATION '/user/ambari-qa/data_pipeline_demo/hivedb/xml_data_archive';
 
 

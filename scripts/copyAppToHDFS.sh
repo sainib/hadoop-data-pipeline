@@ -4,7 +4,7 @@ set +vx
 
 un=`whoami`
 project_root="/app/hadoop-data-pipeline"
-hdp_version="2.2.0.0-2041"
+hdp_version="2.3.0.0-2557"
 if [ $un == 'root' ]; then
 
 su - ambari-qa -c "hdfs dfs -put ${project_root}/hql/* /user/ambari-qa/data_pipeline_demo/hql/"
