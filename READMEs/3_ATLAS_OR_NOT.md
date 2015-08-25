@@ -12,7 +12,9 @@ Choose the deployment option -
 
 * [Install Demo WITH Atlas configuration](https://github.com/sainib/hadoop-data-pipeline/blob/master/READMEs/4_ENABLE_ATLAS.md)
 
-* [Install Demo WITHOUT Atlas configuration](https://github.com/sainib/hadoop-data-pipeline/blob/master/READMEs/5_INSTALL_OPTIONS.md)
+* [Install Demo WITHOUT Atlas configuration](https://github.com/sainib/hadoop-data-pipeline/blob/master/READMEs/5b_INSTALL_OPTIONS.md)
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/sainib/hadoop-data-pipeline/master/READMEs/imgs/prev.jpg">](https://github.com/sainib/hadoop-data-pipeline/blob/master/2_DEMO_CODE.md)
+If you could like to go back to the previous step, click on the link below. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/sainib/hadoop-data-pipeline/master/READMEs/imgs/prev.jpg">](https://github.com/sainib/hadoop-data-pipeline/blob/master/READMEs/2_DEMO_CODE.md)
