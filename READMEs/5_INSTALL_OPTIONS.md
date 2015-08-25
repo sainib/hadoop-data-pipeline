@@ -6,6 +6,8 @@ At high level, here are the steps
 
 * Get the source code ( git clone <repo-url> ) on sandbox VM. This demo assumes that the code is checked out in /app
 ```
+mkdir /app
+cd /app
 git clone https://github.com/sainib/hadoop-data-pipeline.git
 ```
 * Install the demo (See two install options below)

@@ -8,7 +8,16 @@ Top three things that could go wrong, when setting up a Falcon job are -
 
 Solution is simply to ensure all the required directories exist and that the user who submitted the Falcon entities have the right permissions on those directories. 
 
-### Falcon Patches as of April 2015
+### How to make this demo work in a clustered environment 
+
+TBD 
+
+
+### How to make this demo work for other versions of HDP
+
+TBD
+
+#### Falcon Patches as of April 2015
 ```
 Apply Falcon Patches 915 and 945 to make sure those bugs do not impact the flow. 
 
