@@ -36,4 +36,4 @@ So, it is necessary to make sure that file and directory permissions are adjuste
 ```
 
 
-&nbsp;[NEXT STEP](https://raw.githubusercontent.com/sainib/hadoop-data-pipeline/master/architecture.png)		
+&nbsp;[NEXT STEP](https://github.com/sainib/hadoop-data-pipeline/blob/master/READMEs/1_PREP.md)		
