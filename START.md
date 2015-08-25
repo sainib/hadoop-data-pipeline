@@ -23,7 +23,7 @@ In this flow, there are following processes and steps
 		
 ## Architecture
 
-![Data Pipeline Flow 1 - Architecture](https://raw.githubusercontent.com/sainib/hadoop-data-pipeline/master/architecture.png)		
+![Data Pipeline Flow 1 - Architecture](https://raw.githubusercontent.com/sainib/hadoop-data-pipeline/master/READMEs/imgs/architecture.png)		
 
 
 ## Setting up the project	
