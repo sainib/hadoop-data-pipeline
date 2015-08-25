@@ -1,3 +1,4 @@
+&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/sainib/hadoop-data-pipeline/master/READMEs/imgs/prev.jpg">](https://github.com/sainib/hadoop-data-pipeline/blob/master/READMEs/7_MONITORING.md)
 ## Word of Caution 
 
 Top three things that could go wrong, when setting up a Falcon job are - 
@@ -22,3 +23,4 @@ TBD
 Apply Falcon Patches 915 and 945 to make sure those bugs do not impact the flow. 
 
 ```
+&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/sainib/hadoop-data-pipeline/master/READMEs/imgs/prev.jpg">](https://github.com/sainib/hadoop-data-pipeline/blob/master/READMEs/7_MONITORING.md)
