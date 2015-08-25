@@ -2,9 +2,16 @@
 
 # Flow
 
+## Objective of the demo
+
+The goal of this data pipeline flow is to demonstrate a typical (but simpler) ETL flow in Hadoop using Falcon and Atlas.
+
+
 ## Introduction
 
-The goal of this data pipeline flow is to ingest data files, that are copied to the landing zone on a gateway server, and then process them at a regular interval. When the workflow begins, the files are ingested, stored, transformed and the transformed data is sqooped out of cluster into a MySQL database. 
+As part of this flow, we will ingest data files, that are copied to the landing zone on a gateway server, and then process them at a regular interval automatically using Falcon. When the workflow begins, the files are ingested, stored, transformed and the transformed data is sqooped out of cluster into a MySQL database. 
+
+Once the data is processed, the hive processing lineage will be available in Apache Atlas (optional). 
 
 In this flow, there are following processes and steps 
 
