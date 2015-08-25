@@ -2,6 +2,13 @@
 
 ## Steps to setup up Demo
 
+### Checkout the code 
+```
+mkdir /app
+cd /app
+git clone https://github.com/sainib/hadoop-data-pipeline.git
+```
+
 
 ### HDFS
 * Setup HDFS Directories (hql, workflow, jars, scripts)

@@ -3,6 +3,10 @@
 * Setup the demo.  Run these commands as root. 
 ```
 
+mkdir /app
+cd /app
+git clone https://github.com/sainib/hadoop-data-pipeline.git
+
 cd /app/hadoop-data-pipeline/scripts
 
 bash setupAppOnHDFS.sh
