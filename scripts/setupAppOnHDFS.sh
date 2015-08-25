@@ -4,7 +4,7 @@ set +vx
 
 un=`whoami`
 project_root="/app/hadoop-data-pipeline"
-hdp_version="2.3.0.0-2557"
+hdp_version="2.2.0.0-2041"
 if [ $un == 'root' ]; then
 
 #Create the project root directory
@@ -21,7 +21,14 @@ su - hdfs -c "hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/hql"
 su - hdfs -c "hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/hql"
 su - ambari-qa -c "hdfs dfs -put ${project_root}/hql/* /user/ambari-qa/data_pipeline_demo/hql/"
 echo "Create hql  File  directory - Done"
- 
+
+#hql File Directories
+echo "Create hivedb  File  directory - Start"
+su - hdfs -c "hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/hivedb"
+su - hdfs -c "hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/hivedb"
+su - hdfs -c "hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/hivedb"
+echo "Create hivedb  File  directory - Done"
+  
 #conf File Directories 
 echo "Create conf File  directory - Start"
 su - hdfs -c "hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/conf"
