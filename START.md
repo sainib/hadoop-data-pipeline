@@ -37,3 +37,5 @@ So, it is necessary to make sure that file and directory permissions are adjuste
 
 
 &nbsp;[NEXT STEP](https://github.com/sainib/hadoop-data-pipeline/blob/master/READMEs/1_PREP.md)		
+
+[<img src="http://www.google.com.au/images/nav_logo7.png">](http://google.com.au/)
