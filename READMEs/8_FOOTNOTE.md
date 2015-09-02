@@ -24,3 +24,8 @@ Apply Falcon Patches 915 and 945 to make sure those bugs do not impact the flow.
 
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://raw.githubusercontent.com/sainib/hadoop-data-pipeline/master/READMEs/imgs/prev.jpg">](https://github.com/sainib/hadoop-data-pipeline/blob/master/READMEs/7_MONITORING.md)
+
+
+
+##TBD 
+bin/atlasclient --c=importmysql --mysqlhost=mysql.hortonworks.com --password=trucker --username=trucker1 --db=test  -createHiveTables -genLineage --ambariClusterName=Sandbox --suppress
