@@ -6,11 +6,11 @@ bash deleteEntities.sh
 bash demoReset.sh 
 su - ambari-qa -c "hive -f ${project_root}/hql/DDL/drop-database.hql"
 
-su - atlas -c "/usr/hdp/2.3.0.0-2557/atlas/bin/atlas_stop.py"
+su - atlas -c "/usr/hdp/current/atlas-server/bin/atlas_stop.py"
 rm -rf /var/lib/atlas/data
-su - atlas -c "/usr/hdp/2.3.0.0-2557/atlas/bin/atlas_start.py"
+su - atlas -c "/usr/hdp/current/atlas-server/bin/atlas_start.py"
 sleep 10
-su - atlas -c "/usr/hdp/2.3.0.0-2557/atlas/bin/quick_start.py"
+su - atlas -c "/usr/hdp/current/atlas-server/bin/quick_start.py"
 
 echo "Create hivedb  File  directory - Start"
 su - hdfs -c "hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/hivedb"
