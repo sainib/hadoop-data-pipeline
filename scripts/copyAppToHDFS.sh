@@ -4,14 +4,14 @@ set +vx
 
 un=`whoami`
 project_root="/app/hadoop-data-pipeline"
-hdp_version="2.3.0.0-2557"
+hdp_version="$(hdp-select status hadoop-client | awk '{print $3}')"
 if [ $un == 'root' ]; then
 
 su - ambari-qa -c "hdfs dfs -put ${project_root}/hql/* /user/ambari-qa/data_pipeline_demo/hql/"
 echo "Copied HQL files to HDFS"
 su - ambari-qa -c "hdfs dfs -put ${project_root}/udf/target/* /user/ambari-qa/data_pipeline_demo/jars/"
 echo "Copied UDF jar files to HDFS"
-su - ambari-qa -c "hdfs dfs -put /usr/hdp/${hdp_version}/hive-hcatalog/share/hcatalog/hive-hcatalog-core.jar /user/ambari-qa/data_pipeline_demo/jars/"
+su - ambari-qa -c "hdfs dfs -put /usr/hdp/current/hive-webhcat/share/hcatalog/hive-hcatalog-core.jar /user/ambari-qa/data_pipeline_demo/jars/"
 echo "Copied Serde jar files to HDFS"
 su - ambari-qa -c "hdfs dfs -put ${project_root}/jars/* /user/ambari-qa/data_pipeline_demo/jars/"
 echo "Copied other jar files to HDFS"
