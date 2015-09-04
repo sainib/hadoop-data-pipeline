@@ -4,7 +4,7 @@ set +vx
 
 un=`whoami`
 project_root="/app/hadoop-data-pipeline"
-hdp_version="2.3.0.0-2557"
+hdp_version="$(hdp-select status hadoop-client | awk '{print $3}')"
 if [ $un == 'root' ]; then
 
 #Create the project root directory
@@ -42,7 +42,7 @@ echo "Create jars File  directory - Start"
 su - hdfs -c "hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/jars"
 su - hdfs -c "hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/jars"
 su - hdfs -c "hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/jars"
-su - ambari-qa -c "hdfs dfs -put /usr/hdp/${hdp_version}/hive-hcatalog/share/hcatalog/hive-hcatalog-core.jar /user/ambari-qa/data_pipeline_demo/jars/"
+su - ambari-qa -c "hdfs dfs -put /usr/hdp/current/hive-webhcat/share/hcatalog/hive-hcatalog-core.jar /user/ambari-qa/data_pipeline_demo/jars/"
 su - ambari-qa -c "hdfs dfs -put ${project_root}/udf/target/* /user/ambari-qa/data_pipeline_demo/jars/"
 su - ambari-qa -c "hdfs dfs -put ${project_root}/jars/* /user/ambari-qa/data_pipeline_demo/jars/"
 echo "Create jars File  directory - Done"
@@ -104,7 +104,7 @@ cp ${project_root}/jars/mysql-connector-java.jar /usr/share/java/
 cd /usr/lib/hadoop/
 ln -s /usr/share/java/mysql-connector-java.jar
 cd -
-cd /usr/hdp/${hdp_version}/sqoop/lib
+cd /usr/hdp/current/sqoop-server/lib/
 ln -s /usr/share/java/mysql-connector-java.jar
 cd - 
 echo "Setting up MYSQL JDBC driver for Sqoop - Done"
