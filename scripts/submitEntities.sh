@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 project_root="/app/hadoop-data-pipeline"
 su - ambari-qa -c "falcon entity -submit -type cluster -file ${project_root}/falcon/cluster/primaryCluster.xml"

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 python /usr/hdp/current/atlas-server/bin/atlas_stop.py
 rm -rf /var/lib/atlas/data

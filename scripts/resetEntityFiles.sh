@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set +vx 
 rm -rf ../falcon/feeds/*
 git checkout ../falcon/feeds/inputFeed.xml

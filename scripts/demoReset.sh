@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 project_root="/app/hadoop-data-pipeline"
 

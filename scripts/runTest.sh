@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 
 su - hdfs -c "hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/data"

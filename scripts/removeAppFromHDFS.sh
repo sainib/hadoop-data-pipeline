@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 un=`whoami`
 if [ $un == 'root' ]; then

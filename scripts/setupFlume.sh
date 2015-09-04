@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo "Setting up flume - Start"
 mkdir -p /root/data_pipeline_demo/input
