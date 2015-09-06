@@ -90,16 +90,18 @@ su - ${demo_user} -c "hdfs dfs -put ${project_root}/falcon/workflow/* /user/${de
 echo "Created Falcon workflow directory - Done"
 
 echo "Creating Hive Tables - Start"
-su - ${demo_user} -c "hive -f ${project_root}/hql/DDL/create-tables.hql"
+#su - ${demo_user} -c "hive -f ${project_root}/hql/DDL/create-tables.hql"
+su - ${demo_user} -c "hive -f ${project_root}/hql/DDL/create-tables-nocomments.hql"
 echo "Creating Hive Tables - Done"
+
+echo "Creating UDFs - Start"
+su - ${demo_user} -c "hive -f ${project_root}/hql/DDL/create-udfs.hql"
+echo "Creating UDFs - Done"
 
 echo "Adding JSON Serde Jar - Start"
 su - ${demo_user} -c "hive -f ${project_root}/hql/DDL/add-json-serde.hql"
 echo "Adding JSON Serde Jar - Start"
 
-echo "Creating UDFs - Start"
-su - ${demo_user} -c "hive -f ${project_root}/hql/DDL/create-udfs.hql"
-echo "Creating UDFs - Done"
 
 
 ## not needed on RHEL7
