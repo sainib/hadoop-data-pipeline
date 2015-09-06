@@ -14,7 +14,7 @@
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
   limitations under the License.
-  
+
   Workflow app = /user/admin/data_pipeline_demo/
 -->
 <workflow-app xmlns="uri:oozie:workflow:0.4" name="dataPipelineDemoWorkflow">
@@ -22,10 +22,10 @@
     <start to="workflow_prep"/>
     <action name="workflow_prep">
         <fs>
-              <mkdir path='${nameNode}${workflow_root_dir}/data/process/${execution_id}'/>
-              <mkdir path='${nameNode}${workflow_root_dir}/data/backup/${execution_id}'/>              
-              <chmod path='${nameNode}${workflow_root_dir}/data/process/${execution_id}' permissions='777' dir-files='true'/>
-              <chmod path='${nameNode}${workflow_root_dir}/data/backup/${execution_id}' permissions='777' dir-files='true'/>
+              <mkdir path='${nameNode}/user/admin/data_pipeline_demo/data/process/${execution_id}'/>
+              <mkdir path='${nameNode}/user/admin/data_pipeline_demo/data/backup/${execution_id}'/>
+              <chmod path='${nameNode}/user/admin/data_pipeline_demo/data/process/${execution_id}' permissions='777' dir-files='true'/>
+              <chmod path='${nameNode}/user/admin/data_pipeline_demo/data/backup/${execution_id}' permissions='777' dir-files='true'/>
         </fs>
         <ok to="move_data_to_process"/>
         <error to="end"/>
@@ -39,18 +39,18 @@
 				<property>
 				   <name>mapred.job.queue.name</name>
 				   <value>${queueName}</value>
-				</property>            
+				</property>
 		    </configuration>
             <exec>hdfs</exec>
               <argument>dfs</argument>
               <argument>-mv</argument>
-              <argument>${eventData}/*.input</argument>            
-              <argument>${workflow_root_dir}/data/process/${execution_id}</argument>                          
+              <argument>${eventData}/*.input</argument>
+              <argument>/user/admin/data_pipeline_demo/data/process/${execution_id}</argument>
         </shell>
         <ok to="copy_data_to_backup"/>
         <error to="end"/>
     </action>
-    
+
     <action name="copy_data_to_backup">
         <shell xmlns="uri:oozie:shell-action:0.1">
             <job-tracker>${jobTracker}</job-tracker>
@@ -59,30 +59,30 @@
 				<property>
 				   <name>mapred.job.queue.name</name>
 				   <value>${queueName}</value>
-				</property>            
+				</property>
 		    </configuration>
             <exec>hdfs</exec>
               <argument>dfs</argument>
               <argument>-cp</argument>
-              <argument>${workflow_root_dir}/data/process/${execution_id}/*</argument>            
-              <argument>${workflow_root_dir}/data/backup/${execution_id}/</argument>                          
+              <argument>/user/admin/data_pipeline_demo/data/process/${execution_id}/*</argument>
+              <argument>/user/admin/data_pipeline_demo/data/backup/${execution_id}/</argument>
         </shell>
         <ok to="load_raw_data"/>
         <error to="end"/>
-    </action>    
-    
+    </action>
+
   <!--  <action name="cleanup_tmp_tables">
         <hive xmlns="uri:oozie:hive-action:0.2">
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
-            <job-xml>${workflow_root_dir}/conf/hive-site.xml</job-xml>            
-            <script>${workflow_root_dir}/hql/DML/cleanup_tmp_tables.hql</script>
+            <job-xml>/user/admin/data_pipeline_demo/conf/hive-site.xml</job-xml>
+            <script>/user/admin/data_pipeline_demo/hql/DML/cleanup_tmp_tables.hql</script>
 			<param>execution_id=${execution_id}</param>
-			<param>workflow_root_dir=${workflow_root_dir}</param>
+            <param>workflow_root_dir=/user/admin/data_pipeline_demo</param>
 			<param>hive_db=${hive_db}</param>
 			<param>json_raw_table=${json_raw_table}</param>
 			<param>json_events_table=${json_events_table}</param>
-			<param>export_table=${export_table}</param>			
+			<param>export_table=${export_table}</param>
         </hive>
         <ok to="load_raw_data"/>
         <error to="load_raw_data"/>
@@ -91,43 +91,43 @@
     <action name="load_raw_data">
         <hive xmlns="uri:oozie:hive-action:0.2">
             <job-tracker>${jobTracker}</job-tracker>
-            <name-node>${nameNode}</name-node>            
-            <job-xml>${workflow_root_dir}/conf/hive-site.xml</job-xml>            
+            <name-node>${nameNode}</name-node>
+            <job-xml>/user/admin/data_pipeline_demo/conf/hive-site.xml</job-xml>
             <configuration>
 				<property>
 				   <name>mapred.job.queue.name</name>
 				   <value>${queueName}</value>
-				</property>            
+				</property>
 				<property>
 				   <name>tez.queue.name</name>
 				   <value>${queueName}</value>
-				</property>            
+				</property>
 		    </configuration>
-            <script>${workflow_root_dir}/hql/DML/load_raw_data.hql</script>
+            <script>/user/admin/data_pipeline_demo/hql/DML/load_raw_data.hql</script>
 			<param>execution_id=${execution_id}</param>
-			<param>workflow_root_dir=${workflow_root_dir}</param>
+            <param>workflow_root_dir=/user/admin/data_pipeline_demo</param>
 			<param>hive_db=${hive_db}</param>
-			<param>xml_raw_table=${xml_raw_table}</param>        
-            <file>${workflow_root_dir}/jars/atlas-client-0.5.0.2.3.0.0-2557.jar</file>
-            <file>${workflow_root_dir}/jars/atlas-typesystem-0.5.0.2.3.0.0-2557.jar</file>
-            <file>${workflow_root_dir}/jars/hive-bridge-0.5.0.2.3.0.0-2557.jar</file>
-            <file>${workflow_root_dir}/jars/scala-reflect-2.10.4.jar</file>
-            <file>${workflow_root_dir}/jars/scalap-2.10.4.jar</file>
-            <file>${workflow_root_dir}/jars/scala-library-2.10.4.jar</file>
-            <file>${workflow_root_dir}/jars/scala-compiler-2.10.4.jar</file>
-            <file>${workflow_root_dir}/jars/json4s-native_2.10-3.2.11.jar</file>
-            <file>${workflow_root_dir}/jars/json4s-core_2.10-3.2.11.jar</file>
-            <file>${workflow_root_dir}/jars/json4s-ast_2.10-3.2.11.jar</file>
-            <archive>${workflow_root_dir}/jars/scala-reflect-2.10.4.jar</archive>
-            <archive>${workflow_root_dir}/jars/scalap-2.10.4.jar</archive>
-            <archive>${workflow_root_dir}/jars/scala-library-2.10.4.jar</archive>
-            <archive>${workflow_root_dir}/jars/scala-compiler-2.10.4.jar</archive>
-            <archive>${workflow_root_dir}/jars/json4s-native_2.10-3.2.11.jar</archive>
-            <archive>${workflow_root_dir}/jars/json4s-core_2.10-3.2.11.jar</archive>
-            <archive>${workflow_root_dir}/jars/json4s-ast_2.10-3.2.11.jar</archive>
-            <archive>${workflow_root_dir}/jars/atlas-client-0.5.0.2.3.0.0-2557.jar</archive>			
-            <archive>${workflow_root_dir}/jars/atlas-typesystem-0.5.0.2.3.0.0-2557.jar</archive>			
-            <archive>${workflow_root_dir}/jars/hive-bridge-0.5.0.2.3.0.0-2557.jar</archive>
+			<param>xml_raw_table=${xml_raw_table}</param>
+            <file>/user/admin/data_pipeline_demo/jars/atlas-client-0.5.0.2.3.0.0-2557.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/atlas-typesystem-0.5.0.2.3.0.0-2557.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/hive-bridge-0.5.0.2.3.0.0-2557.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/scala-reflect-2.10.4.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/scalap-2.10.4.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/scala-library-2.10.4.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/scala-compiler-2.10.4.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/json4s-native_2.10-3.2.11.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/json4s-core_2.10-3.2.11.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/json4s-ast_2.10-3.2.11.jar</file>
+            <archive>/user/admin/data_pipeline_demo/jars/scala-reflect-2.10.4.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/scalap-2.10.4.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/scala-library-2.10.4.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/scala-compiler-2.10.4.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/json4s-native_2.10-3.2.11.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/json4s-core_2.10-3.2.11.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/json4s-ast_2.10-3.2.11.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/atlas-client-0.5.0.2.3.0.0-2557.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/atlas-typesystem-0.5.0.2.3.0.0-2557.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/hive-bridge-0.5.0.2.3.0.0-2557.jar</archive>
 
         </hive>
         <ok to="aggregate_data"/>
@@ -138,53 +138,53 @@
         <hive xmlns="uri:oozie:hive-action:0.2">
             <job-tracker>${jobTracker}</job-tracker>
             <name-node>${nameNode}</name-node>
-            <job-xml>${workflow_root_dir}/conf/hive-site.xml</job-xml>            
+            <job-xml>/user/admin/data_pipeline_demo/conf/hive-site.xml</job-xml>
             <configuration>
 				<property>
 				   <name>mapred.job.queue.name</name>
 				   <value>${queueName}</value>
-				</property>            
+				</property>
 				<property>
 				   <name>tez.queue.name</name>
 				   <value>${queueName}</value>
-				</property>            
-		    </configuration>            
-            <script>${workflow_root_dir}/hql/DML/aggregate.hql</script>
+				</property>
+		    </configuration>
+            <script>/user/admin/data_pipeline_demo/hql/DML/aggregate.hql</script>
 			<param>execution_id=${execution_id}</param>
-			<param>workflow_root_dir=${workflow_root_dir}</param>
+			<param>workflow_root_dir=/user/admin/data_pipeline_demo</param>
 			<param>hive_db=${hive_db}</param>
-			<param>xml_raw_table=${xml_raw_table}</param>        
-			<param>json_events_table=${json_events_table}</param>        					
-			<param>json_raw_table=${json_raw_table}</param>        
-			<param>export_table=${export_table}</param>        
-			<param>xml_archive_table=${xml_archive_table}</param>        
-			<param>json_events_master_table=${json_events_master_table}</param>        
-            <file>${workflow_root_dir}/jars/hive-hcatalog-core.jar</file>
-            <file>${workflow_root_dir}/jars/atlas-client-0.5.0.2.3.0.0-2557.jar</file>
-            <file>${workflow_root_dir}/jars/atlas-typesystem-0.5.0.2.3.0.0-2557.jar</file>
-            <file>${workflow_root_dir}/jars/hive-bridge-0.5.0.2.3.0.0-2557.jar</file>
-            <file>${workflow_root_dir}/jars/scala-reflect-2.10.4.jar</file>
-            <file>${workflow_root_dir}/jars/scalap-2.10.4.jar</file>
-            <file>${workflow_root_dir}/jars/scala-library-2.10.4.jar</file>
-            <file>${workflow_root_dir}/jars/scala-compiler-2.10.4.jar</file>
-            <file>${workflow_root_dir}/jars/json4s-native_2.10-3.2.11.jar</file>
-            <file>${workflow_root_dir}/jars/json4s-core_2.10-3.2.11.jar</file>
-            <file>${workflow_root_dir}/jars/json4s-ast_2.10-3.2.11.jar</file>
-            <archive>${workflow_root_dir}/jars/scala-reflect-2.10.4.jar</archive>
-            <archive>${workflow_root_dir}/jars/scalap-2.10.4.jar</archive>
-            <archive>${workflow_root_dir}/jars/scala-library-2.10.4.jar</archive>
-            <archive>${workflow_root_dir}/jars/scala-compiler-2.10.4.jar</archive>
-            <archive>${workflow_root_dir}/jars/json4s-native_2.10-3.2.11.jar</archive>
-            <archive>${workflow_root_dir}/jars/json4s-core_2.10-3.2.11.jar</archive>
-            <archive>${workflow_root_dir}/jars/json4s-ast_2.10-3.2.11.jar</archive>
-            <archive>${workflow_root_dir}/jars/atlas-client-0.5.0.2.3.0.0-2557.jar</archive>
-            <archive>${workflow_root_dir}/jars/atlas-typesystem-0.5.0.2.3.0.0-2557.jar</archive>
-            <archive>${workflow_root_dir}/jars/hive-bridge-0.5.0.2.3.0.0-2557.jar</archive>
-            <archive>${workflow_root_dir}/jars/hive-hcatalog-core.jar</archive>			
+			<param>xml_raw_table=${xml_raw_table}</param>
+			<param>json_events_table=${json_events_table}</param>
+			<param>json_raw_table=${json_raw_table}</param>
+			<param>export_table=${export_table}</param>
+			<param>xml_archive_table=${xml_archive_table}</param>
+			<param>json_events_master_table=${json_events_master_table}</param>
+            <file>/user/admin/data_pipeline_demo/jars/hive-hcatalog-core.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/atlas-client-0.5.0.2.3.0.0-2557.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/atlas-typesystem-0.5.0.2.3.0.0-2557.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/hive-bridge-0.5.0.2.3.0.0-2557.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/scala-reflect-2.10.4.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/scalap-2.10.4.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/scala-library-2.10.4.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/scala-compiler-2.10.4.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/json4s-native_2.10-3.2.11.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/json4s-core_2.10-3.2.11.jar</file>
+            <file>/user/admin/data_pipeline_demo/jars/json4s-ast_2.10-3.2.11.jar</file>
+            <archive>/user/admin/data_pipeline_demo/jars/scala-reflect-2.10.4.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/scalap-2.10.4.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/scala-library-2.10.4.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/scala-compiler-2.10.4.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/json4s-native_2.10-3.2.11.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/json4s-core_2.10-3.2.11.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/json4s-ast_2.10-3.2.11.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/atlas-client-0.5.0.2.3.0.0-2557.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/atlas-typesystem-0.5.0.2.3.0.0-2557.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/hive-bridge-0.5.0.2.3.0.0-2557.jar</archive>
+            <archive>/user/admin/data_pipeline_demo/jars/hive-hcatalog-core.jar</archive>
         </hive>
         <ok to="export_data"/>
         <error to="end"/>
-    </action>    
+    </action>
 
     <action name="export_data">
         <sqoop xmlns="uri:oozie:sqoop-action:0.2">
@@ -194,12 +194,12 @@
 				<property>
 				   <name>mapred.job.queue.name</name>
 				   <value>${queueName}</value>
-				</property>            
+				</property>
 				<property>
 				   <name>tez.queue.name</name>
 				   <value>${queueName}</value>
-				</property>            
-		    </configuration>            
+				</property>
+		    </configuration>
             <arg>export</arg>
             <arg>--connect</arg>
             <arg>${EXPORT_JDBC_URL}</arg>
@@ -215,14 +215,14 @@
             <arg>${EXPORT_DATA_DELIMITER}</arg>
             <arg>--input-null-non-string</arg>
             <arg>\\N</arg>
-            <file>${workflow_root_dir}/jars/mysql-connector-java.jar</file>
-            <archive>${workflow_root_dir}/jars/mysql-connector-java.jar</archive>			            
+            <file>/user/admin/data_pipeline_demo/jars/mysql-connector-java.jar</file>
+            <archive>/user/admin/data_pipeline_demo/jars/mysql-connector-java.jar</archive>
         </sqoop>
         <ok to="end"/>
         <error to="kill"/>
-    </action>    
+    </action>
 
-   
+
     <kill name="kill">
         <message>Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]</message>
     </kill>
