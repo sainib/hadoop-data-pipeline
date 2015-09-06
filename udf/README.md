@@ -21,11 +21,11 @@ cd ./hadoop-demos/data-pipeline/udf
 bash build.sh
 ```
 
-* Copy the jar file to a directory on HDFS. (Assuming the selected directory is /user/ambari-qa/
+* Copy the jar file to a directory on HDFS. (Assuming the selected directory is /user/admin/
 ```
 cd target
-hdfs dfs -put MyXml2JsonUdf.jar /user/ambari-qa
-hdfs dfs -chmod 755 /user/ambari-qa/MyXml2JsonUdf.jar
+hdfs dfs -put MyXml2JsonUdf.jar /user/admin
+hdfs dfs -chmod 755 /user/admin/MyXml2JsonUdf.jar
 ```
 
 * Create a User Defined Function from the Java code in the jar file. 
@@ -33,11 +33,11 @@ hdfs dfs -chmod 755 /user/ambari-qa/MyXml2JsonUdf.jar
 
 Using command line, type hive
 
-hive:> use demodb; 
+hive:> use default; 
 
-hive:> CREATE FUNCTION convertX2J AS 'XML2JSONConvertor' USING JAR 'hdfs:///user/ambari-qa/data_pipeline_demo/jars/MyXml2JsonUdf.jar';
+hive:> CREATE FUNCTION convertX2J AS 'XML2JSONConvertor' USING JAR 'hdfs:///user/admin/data_pipeline_demo/jars/MyXml2JsonUdf.jar';
 
-hive:> CREATE FUNCTION convertJArr2Obj AS 'JSONObjector' USING JAR 'hdfs:///user/ambari-qa/data_pipeline_demo/jars/MyXml2JsonUdf.jar';
+hive:> CREATE FUNCTION convertJArr2Obj AS 'JSONObjector' USING JAR 'hdfs:///user/admin/data_pipeline_demo/jars/MyXml2JsonUdf.jar';
 
 ```
 

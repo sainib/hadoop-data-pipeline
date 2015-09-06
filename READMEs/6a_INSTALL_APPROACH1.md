@@ -18,32 +18,32 @@ git clone https://github.com/sainib/hadoop-data-pipeline.git
  su - hdfs 
 
  #hql File Directories 
-hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/hql
-hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/hql
-hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/hql
+hdfs dfs -mkdir -p /user/admin/data_pipeline_demo/hql
+hdfs dfs -chmod 777 /user/admin/data_pipeline_demo/hql
+hdfs dfs -chown admin:hadoop /user/admin/data_pipeline_demo/hql
 
  #pig File Directories 
-hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/jars
-hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/jars
-hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/jars
+hdfs dfs -mkdir -p /user/admin/data_pipeline_demo/jars
+hdfs dfs -chmod 777 /user/admin/data_pipeline_demo/jars
+hdfs dfs -chown admin:hadoop /user/admin/data_pipeline_demo/jars
  
  #conf File Directories 
-hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/conf
-hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/conf
-hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/conf
+hdfs dfs -mkdir -p /user/admin/data_pipeline_demo/conf
+hdfs dfs -chmod 777 /user/admin/data_pipeline_demo/conf
+hdfs dfs -chown admin:hadoop /user/admin/data_pipeline_demo/conf
  
  #Data File Directories 
-hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/data/input
-hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/data/input
-hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/data/input
+hdfs dfs -mkdir -p /user/admin/data_pipeline_demo/data/input
+hdfs dfs -chmod 777 /user/admin/data_pipeline_demo/data/input
+hdfs dfs -chown admin:hadoop /user/admin/data_pipeline_demo/data/input
  
-hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/data/process
-hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/data/process
-hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/data/process
+hdfs dfs -mkdir -p /user/admin/data_pipeline_demo/data/process
+hdfs dfs -chmod 777 /user/admin/data_pipeline_demo/data/process
+hdfs dfs -chown admin:hadoop /user/admin/data_pipeline_demo/data/process
 
-hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/data/backup
-hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/data/backup
-hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/data/backup
+hdfs dfs -mkdir -p /user/admin/data_pipeline_demo/data/backup
+hdfs dfs -chmod 777 /user/admin/data_pipeline_demo/data/backup
+hdfs dfs -chown admin:hadoop /user/admin/data_pipeline_demo/data/backup
 
 #Falcon working directories 
 hdfs dfs -mkdir -p /apps/falcon/primaryCluster/staging
@@ -55,23 +55,23 @@ hdfs dfs -chmod 755 /apps/falcon/primaryCluster/working
 hdfs dfs -chown falcon:hadoop /apps/falcon/primaryCluster/working
 
  #falcon workflow File Directories 
-hdfs dfs -mkdir -p /user/ambari-qa/data_pipeline_demo/falcon/workflow
-hdfs dfs -chmod 777 /user/ambari-qa/data_pipeline_demo/falcon/workflow
-hdfs dfs -chown ambari-qa:hadoop /user/ambari-qa/data_pipeline_demo/falcon/workflow
+hdfs dfs -mkdir -p /user/admin/data_pipeline_demo/falcon/workflow
+hdfs dfs -chmod 777 /user/admin/data_pipeline_demo/falcon/workflow
+hdfs dfs -chown admin:hadoop /user/admin/data_pipeline_demo/falcon/workflow
 ```
 * Copy the required files to HDFS
 ```
-su - ambari-qa
-hdfs dfs -put /app/hadoop-data-pipeline/hql/* /user/ambari-qa/data_pipeline_demo/hql/
+su - admin
+hdfs dfs -put /app/hadoop-data-pipeline/hql/* /user/admin/data_pipeline_demo/hql/
 
-hdfs dfs -put /app/hadoop-data-pipeline/jars/* /user/ambari-qa/data_pipeline_demo/jars/
+hdfs dfs -put /app/hadoop-data-pipeline/jars/* /user/admin/data_pipeline_demo/jars/
 
-hdfs dfs -put /etc/hive/conf/hive-site.xml /user/ambari-qa/data_pipeline_demo/conf
+hdfs dfs -put /etc/hive/conf/hive-site.xml /user/admin/data_pipeline_demo/conf
 
-hdfs dfs -put /app/hadoop-data-pipeline/udf/target/* /user/ambari-qa/data_pipeline_demo/jars/
-hdfs dfs -put /usr/hdp/2.2.0.0-2041/hive-hcatalog/share/hcatalog/hive-hcatalog-core.jar /user/ambari-qa/data_pipeline_demo/jars/
+hdfs dfs -put /app/hadoop-data-pipeline/udf/target/* /user/admin/data_pipeline_demo/jars/
+hdfs dfs -put /usr/hdp/2.2.0.0-2041/hive-hcatalog/share/hcatalog/hive-hcatalog-core.jar /user/admin/data_pipeline_demo/jars/
 
-hdfs dfs -put /app/hadoop-data-pipeline/falcon/workflow/* /user/ambari-qa/data_pipeline_demo/falcon/workflow/
+hdfs dfs -put /app/hadoop-data-pipeline/falcon/workflow/* /user/admin/data_pipeline_demo/falcon/workflow/
 ```
 
 
@@ -80,33 +80,33 @@ hdfs dfs -put /app/hadoop-data-pipeline/falcon/workflow/* /user/ambari-qa/data_p
 Note: The user who will be submitting Falcon jobs needs to have write permissions to these tables. So, run this command, to create Hive tables, either with the user who will be submitting Falcon jobs or another user within the same group, ensuring that Hive tables have write permission for the group.
 
 ```
-su - ambari-qa
+su - admin
 hive -f /app/hadoop-data-pipeline/hql/DDL/create-tables.hql
 ```
 
 * Add JSON Serde Jar to Hive
 ```
-bash:>su - ambari-qa
+bash:>su - admin
 
 bash:>hive
 
-hive:> use demodb; 
+hive:> use default; 
 
-hive:> add jar hdfs:///user/ambari-qa/data_pipeline_demo/jars/hive-hcatalog-core.jar;
+hive:> add jar hdfs:///user/admin/data_pipeline_demo/jars/hive-hcatalog-core.jar;
 ```
 
 * Create a User Defined Function from the Java code in the jar file. 
 ```
 
-bash:>su - ambari-qa
+bash:>su - admin
 
 bash:>hive
 
-hive:> use demodb; 
+hive:> use default; 
 
-hive:> CREATE FUNCTION convertX2J AS 'XML2JSONConvertor' USING JAR 'hdfs:///user/ambari-qa/data_pipeline_demo/jars/MyXml2JsonUdf.jar';
+hive:> CREATE FUNCTION convertX2J AS 'XML2JSONConvertor' USING JAR 'hdfs:///user/admin/data_pipeline_demo/jars/MyXml2JsonUdf.jar';
 
-hive:> CREATE FUNCTION convertJArr2Obj AS 'JSONObjector' USING JAR 'hdfs:///user/ambari-qa/data_pipeline_demo/jars/MyXml2JsonUdf.jar';
+hive:> CREATE FUNCTION convertJArr2Obj AS 'JSONObjector' USING JAR 'hdfs:///user/admin/data_pipeline_demo/jars/MyXml2JsonUdf.jar';
 
 ```
 

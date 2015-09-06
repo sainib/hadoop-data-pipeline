@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-su - ambari-qa -c "falcon entity -suspend -type feed -name demoEventData"
-su - ambari-qa -c "falcon entity -suspend -type process -name demoEventProcess"
+su - admin -c "falcon entity -suspend -type feed -name demoEventData"
+su - admin -c "falcon entity -suspend -type process -name demoEventProcess"

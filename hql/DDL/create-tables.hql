@@ -2,11 +2,11 @@
 
 --add jar for the JSON Serde - path is local on the Hive Client server (NOT HDFS) 
 --add jar /usr/hdp/2.2.0.0-2041/hive-hcatalog/share/hcatalog/hive-hcatalog-core.jar;
---add jar 'hdfs:///user/ambari-qa/data_pipeline_demo/jars/hive-hcatalog-core.jar';
+--add jar 'hdfs:///user/admin/data_pipeline_demo/jars/hive-hcatalog-core.jar';
 
-create database demodb;
+create database default;
 
-use demodb;
+use default;
 
 
 --* BASE XML TABLE - FIRST TABLE TO GET LOADED - CLEANUP ALSO *-
@@ -14,7 +14,7 @@ use demodb;
 CREATE external TABLE if not exists raw_xml
 (
 myrow string
-) STORED AS TEXTFILE LOCATION '/user/ambari-qa/data_pipeline_demo/hivedb/raw_xml';
+) STORED AS TEXTFILE LOCATION '/user/admin/data_pipeline_demo/hivedb/raw_xml';
 
 
 --* BASE JSON TABLE - CLEANUP ALSO *-
@@ -22,7 +22,7 @@ myrow string
 CREATE external TABLE if not exists raw_json
 (
 myrow string
-) STORED AS TEXTFILE LOCATION '/user/ambari-qa/data_pipeline_demo/hivedb/raw_json';
+) STORED AS TEXTFILE LOCATION '/user/admin/data_pipeline_demo/hivedb/raw_json';
 
 
 --* JSON COLUMNOR TABLE - CLEANUP ALSO *-
@@ -38,7 +38,7 @@ svendtc date,
 groupSeq int,
 groupOID string
 )
-ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe' STORED AS TEXTFILE LOCATION '/user/ambari-qa/data_pipeline_demo/hivedb/sv_json_data';
+ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe' STORED AS TEXTFILE LOCATION '/user/admin/data_pipeline_demo/hivedb/sv_json_data';
 
 --* EXPORT TABLE : CLEANUP ALSO  *-
 
@@ -48,14 +48,14 @@ visit string,
 year int,
 month int,
 visit_count int
-) ROW FORMAT DELIMITED FIELDS TERMINATED BY '|' STORED AS TEXTFILE LOCATION '/user/ambari-qa/data_pipeline_demo/hivedb/sv_aggregate';
+) ROW FORMAT DELIMITED FIELDS TERMINATED BY '|' STORED AS TEXTFILE LOCATION '/user/admin/data_pipeline_demo/hivedb/sv_aggregate';
 
 --* Archive tables *--
 
 CREATE external TABLE if not exists xml_data_archive
 (
 myrow string
-) STORED AS TEXTFILE LOCATION '/user/ambari-qa/data_pipeline_demo/hivedb/xml_data_archive';
+) STORED AS TEXTFILE LOCATION '/user/admin/data_pipeline_demo/hivedb/xml_data_archive';
 
 
 create table sv_json_data_master ( 
@@ -69,6 +69,6 @@ svendtc date,
 groupSeq int,
 groupOID string
 )
-ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe' STORED AS TEXTFILE LOCATION '/user/ambari-qa/data_pipeline_demo/hivedb/sv_json_data_master';
+ROW FORMAT SERDE 'org.apache.hive.hcatalog.data.JsonSerDe' STORED AS TEXTFILE LOCATION '/user/admin/data_pipeline_demo/hivedb/sv_json_data_master';
 
 

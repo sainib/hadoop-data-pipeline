@@ -1,0 +1,4 @@
+export project_root="/app/hadoop-data-pipeline"
+export hdp_version="$(hdp-select status hadoop-client | awk '{print $3}')"
+export demo_user=admin
+export demo_cluster=$(hostname -f)

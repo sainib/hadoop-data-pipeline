@@ -15,7 +15,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
   
-  Workflow app = /user/ambari-qa/data_pipeline_demo/
+  Workflow app = /user/admin/data_pipeline_demo/
 -->
 <workflow-app xmlns="uri:oozie:workflow:0.4" name="dataPipelineDemoWorkflow">
 
