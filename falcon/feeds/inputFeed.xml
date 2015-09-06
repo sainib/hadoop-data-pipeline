@@ -8,6 +8,7 @@
     <tags>externalSystem=eventData,classification=clinicalResearch</tags>
     <groups>events</groups>
     <frequency>minutes(3)</frequency>
+    <timezone>GMT+00:00</timezone>
     <late-arrival cut-off="hours(4)"/>
     <clusters>
         <cluster name="primaryCluster" type="source">
