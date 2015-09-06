@@ -8,7 +8,7 @@
 
     <clusters>
         <cluster name="primaryCluster">
-<validity start="2015-08-14T16:52Z" end="2015-08-24T16:51Z" />
+<validity start="2015-08-14T09:00Z" end="2015-08-24T22:51Z" />
         </cluster>
     </clusters>
 
@@ -51,7 +51,7 @@
 
     </properties>
 
-    <workflow name="dataPipelineDemoWorkflow" version="2.0.0"
+    <workflow name="dataPipelineDemoWorkflow" version="4.0.1"
     engine="oozie" path="/user/admin/data_pipeline_demo/falcon/workflow" />
 
 	<retry policy="periodic" delay="minutes(15)" attempts="1" />
