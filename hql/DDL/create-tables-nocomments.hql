@@ -1,4 +1,4 @@
-create database default;
+-- create database default;
 use default;
 
 CREATE external TABLE if not exists raw_xml
