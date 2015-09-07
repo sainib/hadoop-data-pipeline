@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 project_root="/app/hadoop-data-pipeline"
 
@@ -6,18 +6,18 @@ un=`whoami`
 if [ $un == 'root' ]; then
 
 echo "Cleaning up data directory"
-su - ambari-qa -c "hdfs dfs -rm -r /user/ambari-qa/data_pipeline_demo/data/process/*"
-su - ambari-qa -c "hdfs dfs -rm -r /user/ambari-qa/data_pipeline_demo/data/backup/*"
-su - ambari-qa -c "hdfs dfs -rm -r /user/ambari-qa/data_pipeline_demo/data/input/*"
+su - admin -c "hdfs dfs -rm -r /user/admin/data_pipeline_demo/data/process/*"
+su - admin -c "hdfs dfs -rm -r /user/admin/data_pipeline_demo/data/backup/*"
+su - admin -c "hdfs dfs -rm -r /user/admin/data_pipeline_demo/data/input/*"
 echo "Cleaned up data directory"
 
 echo "Cleaning up hive table - start"
-su - ambari-qa -c "hdfs dfs -rm -r /user/ambari-qa/data_pipeline_demo/hivedb/raw_xml/*"
-su - ambari-qa -c "hdfs dfs -rm -r /user/ambari-qa/data_pipeline_demo/hivedb/raw_json/*"
-su - ambari-qa -c "hdfs dfs -rm -r /user/ambari-qa/data_pipeline_demo/hivedb/sv_aggregate/*"
-su - ambari-qa -c "hdfs dfs -rm -r /user/ambari-qa/data_pipeline_demo/hivedb/sv_json_data/*"
-su - ambari-qa -c "hdfs dfs -rm -r /user/ambari-qa/data_pipeline_demo/hivedb/sv_json_data_master/*"
-su - ambari-qa -c "hdfs dfs -rm -r /user/ambari-qa/data_pipeline_demo/hivedb/xml_data_archive/*"
+su - admin -c "hdfs dfs -rm -r /user/admin/data_pipeline_demo/hivedb/raw_xml/*"
+su - admin -c "hdfs dfs -rm -r /user/admin/data_pipeline_demo/hivedb/raw_json/*"
+su - admin -c "hdfs dfs -rm -r /user/admin/data_pipeline_demo/hivedb/sv_aggregate/*"
+su - admin -c "hdfs dfs -rm -r /user/admin/data_pipeline_demo/hivedb/sv_json_data/*"
+su - admin -c "hdfs dfs -rm -r /user/admin/data_pipeline_demo/hivedb/sv_json_data_master/*"
+su - admin -c "hdfs dfs -rm -r /user/admin/data_pipeline_demo/hivedb/xml_data_archive/*"
 echo "Cleaning up hive table - done"
 
 echo "Cleaning up mysql table - start"
@@ -30,7 +30,7 @@ echo "Cleaning up Flume directory - Done"
 
 else
 
-echo "Unable to switch user to ambari-qa. Run as root."
+echo "Unable to switch user to admin. Run as root."
 
 fi
 

@@ -40,7 +40,7 @@ Pre-requisite - Download and install [Hortonworks Sandbox](http://www.hortonwork
 ```
 IMPORTANT NOTE : 
 
-This demo assumes that the automated process will be running as user - ambari-qa. 
+This demo assumes that the automated process will be running as user - admin. 
 So, it is necessary to make sure that file and directory permissions are adjusted appropriately, if you plan on using another user.
 ```
 
