@@ -3,57 +3,59 @@
  Hourly process, ingests raw emails from all US west email servers
  -->
 <process name="demoEventProcess" xmlns="uri:falcon:process:0.1">
-    
+
     <tags>pipeline=eventsDataPipeline,owner=demo,externalSystem=clinicalResearch</tags>
-    
+
     <clusters>
         <cluster name="primaryCluster">
-<validity start="2015-08-14T16:52Z" end="2015-08-24T16:51Z" />
+<validity start="2015-08-14T09:00Z" end="2015-08-24T22:51Z" />
         </cluster>
     </clusters>
-    
+
     <parallel>1</parallel>
     <order>FIFO</order>
     <frequency>minutes(5)</frequency>
 
+    <timezone>GMT+00:00</timezone>
+
 	<inputs>
          <input name="eventData" feed="demoEventData" start="now(0,0)" end="now(0,0)" />
-    </inputs>    	
+    </inputs>
 
     <properties>
 		<property name="execution_id" value="${coord:formatTime(coord:nominalTime(), 'yyyyMMdd_HH')}" />
 
 		<property name="report_date_value" value="${coord:formatTime(coord:nominalTime(), 'yyyyMMdd')}" />
-		<property name="report_date_hour_value" value="${coord:formatTime(coord:nominalTime(), 'HH')}" />		
+		<property name="report_date_hour_value" value="${coord:formatTime(coord:nominalTime(), 'HH')}" />
 
-		<property name="workflow_root_dir" value="/user/ambari-qa/data_pipeline_demo" />
-	
-		<property name="hive_db" value="demodb" />
-		
+		<property name="workflow_root_dir" value="/user/admin/data_pipeline_demo" />
+
+		<property name="hive_db" value="default" />
+
 		<property name="xml_raw_table" value="raw_xml" />
 		<property name="json_raw_table" value="raw_json" />
 		<property name="json_events_table" value="sv_json_data" />
 		<property name="export_table" value="sv_aggregate" />
 
 		<property name="xml_archive_table" value="xml_data_archive" />
-		<property name="json_events_master_table" value="sv_json_data_master" />		
+		<property name="json_events_master_table" value="sv_json_data_master" />
 
 		<property name="audit_table_name" value="demo_job_audit_info" />
 
-		<property name="queueName" value="default" />		
-		
+		<property name="queueName" value="default" />
+
 		<property name="EXPORT_JDBC_URL" value="jdbc:mysql://localhost:3306/demomysql" />
 		<property name="EXPORT_USER_ID" value="demouser" />
 		<property name="EXPORT_USER_PASSWORD" value="demopwd" />
-		<property name="EXPORT_DATA_SOURCE_DIR" value="/user/ambari-qa/data_pipeline_demo/hivedb/" />
+		<property name="EXPORT_DATA_SOURCE_DIR" value="/user/admin/data_pipeline_demo/hivedb/" />
 		<property name="EXPORT_TARGET_TABLE" value="sv_aggregate" />
 		<property name="EXPORT_DATA_DELIMITER" value="|" />
-														
+
     </properties>
- 
-    <workflow name="dataPipelineDemoWorkflow" version="2.0.0"
-    engine="oozie" path="/user/ambari-qa/data_pipeline_demo/falcon/workflow" />
-    
+
+    <workflow name="dataPipelineDemoWorkflow" version="4.0.1"
+    engine="oozie" path="/user/admin/data_pipeline_demo/falcon/workflow" />
+
 	<retry policy="periodic" delay="minutes(15)" attempts="1" />
-    
+
 </process>
