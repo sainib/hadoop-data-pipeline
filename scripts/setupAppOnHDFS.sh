@@ -53,6 +53,8 @@ su - hdfs -c "hdfs dfs -chown ${demo_user}:hadoop /user/${demo_user}/data_pipeli
 su - ${demo_user} -c "hdfs dfs -put /usr/hdp/current/hive-webhcat/share/hcatalog/hive-hcatalog-core.jar /user/${demo_user}/data_pipeline_demo/jars/"
 su - ${demo_user} -c "hdfs dfs -put ${project_root}/udf/target/* /user/${demo_user}/data_pipeline_demo/jars/"
 su - ${demo_user} -c "hdfs dfs -put ${project_root}/jars/* /user/${demo_user}/data_pipeline_demo/jars/"
+su - hdfs -c "hdfs dfs -put /usr/hdp/current/atlas-server/hook/hive/*.jar /user/ambari-qa/data_pipeline_demo/jars/"
+
 echo "Create jars File  directory - Done"
   
 #Data File Directories 
