@@ -5,7 +5,7 @@ set +vx
 un=`whoami`
 project_root="/app/hadoop-data-pipeline"
 hdp_version="$(hdp-select status hadoop-client | awk '{print $3}')"
-
+__dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "${__dir}/../conf"
 
 if [ $un == 'root' ]; then

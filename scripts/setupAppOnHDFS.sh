@@ -9,6 +9,12 @@ __base="$(basename ${__file} .sh)"
 
 source "${__dir}/../conf"
 
+echo "Install NTP service-Start"
+yum install -y ntp
+service ntpd start
+chkconfig ntpd on
+echo "Install NTP service-Done"
+
 un=`whoami`
 if [ $un == 'root' ]; then
 

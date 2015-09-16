@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 project_root="/app/hadoop-data-pipeline"
+__dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "${__dir}/../conf"
 
 un=`whoami`
