@@ -18,7 +18,7 @@ echo "Install NTP service-Done"
 un=`whoami`
 if [ $un == 'root' ]; then
 
-#project_root="/app/hadoop-data-pipeline"
+project_root="/app/hadoop-data-pipeline"
 #hdp_version="$(hdp-select status hadoop-client | awk '{print $3}')"
 
 #Create the project root directory
