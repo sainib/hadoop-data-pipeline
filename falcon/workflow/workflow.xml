@@ -43,7 +43,7 @@
             <exec>hdfs</exec>
               <argument>dfs</argument>
               <argument>-mv</argument>
-              <argument>${eventData}/*.input</argument>            
+              <argument>${workflow_root_dir}/data/input/*.input</argument>            
               <argument>${workflow_root_dir}/data/process/${execution_id}</argument>                          
         </shell>
         <ok to="copy_data_to_backup"/>

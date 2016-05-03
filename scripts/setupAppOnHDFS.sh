@@ -146,7 +146,8 @@ echo "Setting up MYSQL Database - Done"
 echo "Setting up flume - Start"
 mkdir -p /root/data_pipeline_demo/input
 cp /etc/flume/conf/flume.conf /etc/flume/conf/flume.conf.bak
-cp ${project_root}/flume/flume.conf /etc/flume/conf/flume.conf
+cp ${project_root}/flume/flume.conf /etc/flume/conf/flume.conf.src
+sed -e "s/DATA_PIPELINE_DEMO_USER/${demo_user}/" /etc/flume/conf/flume.conf.src > /etc/flume/conf/flume.conf
 echo "Setting up flume - Done"
 
 echo "Starting the Flume Agent - Start"
