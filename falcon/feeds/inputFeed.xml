@@ -12,7 +12,7 @@
     <late-arrival cut-off="hours(4)"/>
     <clusters>
         <cluster name="primaryCluster" type="source">
-<validity start="2016-04-29T01:13Z" end="2016-05-09T01:12Z" />
+<validity start="2016-04-29T02:50Z" end="2016-05-09T02:49Z" />
             <retention limit="days(5)" action="delete"/>
         </cluster>
     </clusters>

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set +vx
+set -vx
 
 # Set magic variables for current file & dir
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -17,6 +17,21 @@ echo "Install NTP service-Done"
 
 un=`whoami`
 if [ $un == 'root' ]; then
+
+
+demo_user_count=`grep -c ${demo_user} /etc/passwd`
+if [ $demo_user_count -eq 1 ]; then
+echo "${demo_user} already exists on this cluster. Proceeding.."
+        if [ -d "/home/${demo_user}" ]; then
+                echo "Home directory exists for ${demo_user}. Proceeding.."
+        else
+                echo "Home directory DOES NOT exists for ${demo_user}. Please create it and restart setup."
+                exit
+        fi
+else
+        echo "User [${demo_user}] does not exist on cluster. Please create the user and try again."
+fi
+
 
 project_root="/app/hadoop-data-pipeline"
 #hdp_version="$(hdp-select status hadoop-client | awk '{print $3}')"
