@@ -18,9 +18,9 @@
 
     <timezone>GMT+00:00</timezone>
 
-	<inputs>
-         <input name="eventData" feed="demoEventData" start="now(0,0)" end="now(0,0)" />
-    </inputs>
+    <!--	<inputs>
+          <input name="eventData" feed="demoEventData" start="now(0,0)" end="now(0,0)" />
+        </inputs> -->
 
     <properties>
 		<property name="execution_id" value="${coord:formatTime(coord:nominalTime(), 'yyyyMMdd_HH')}" />
@@ -28,7 +28,7 @@
 		<property name="report_date_value" value="${coord:formatTime(coord:nominalTime(), 'yyyyMMdd')}" />
 		<property name="report_date_hour_value" value="${coord:formatTime(coord:nominalTime(), 'HH')}" />
 
-		<property name="workflow_root_dir" value="/user/admin/data_pipeline_demo" />
+		<property name="workflow_root_dir" value="/user/ambari-qa/data_pipeline_demo" />
 
 		<property name="hive_db" value="default" />
 
@@ -47,14 +47,14 @@
 		<property name="EXPORT_JDBC_URL" value="jdbc:mysql://localhost:3306/demomysql" />
 		<property name="EXPORT_USER_ID" value="demouser" />
 		<property name="EXPORT_USER_PASSWORD" value="demopwd" />
-		<property name="EXPORT_DATA_SOURCE_DIR" value="/user/admin/data_pipeline_demo/hivedb/" />
+		<property name="EXPORT_DATA_SOURCE_DIR" value="/user/ambari-qa/data_pipeline_demo/hivedb/" />
 		<property name="EXPORT_TARGET_TABLE" value="sv_aggregate" />
 		<property name="EXPORT_DATA_DELIMITER" value="|" />
 
     </properties>
 
     <workflow name="dataPipelineDemoWorkflow" version="4.0.1"
-    engine="oozie" path="/user/admin/data_pipeline_demo/falcon/workflow" />
+    engine="oozie" path="/user/ambari-qa/data_pipeline_demo/falcon/workflow" />
 
 	<retry policy="periodic" delay="minutes(15)" attempts="1" />
 

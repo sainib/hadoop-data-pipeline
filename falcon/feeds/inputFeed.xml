@@ -18,11 +18,11 @@
     </clusters>
 
     <locations>
-        <location type="data" path="/user/admin/data_pipeline_demo/data/input"/>
+        <location type="data" path="/user/ambari-qa/data_pipeline_demo/data/input"/>
         <location type="stats" path="/none"/>
         <location type="meta" path="/none"/>
     </locations>
 
-    <ACL owner="admin" group="hdfs" permission="0755"/>
+    <ACL owner="ambari-qa" group="hdfs" permission="0755"/>
     <schema location="/none" provider="none"/>
 </feed>
